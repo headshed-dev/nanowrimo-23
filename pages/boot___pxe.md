@@ -89,5 +89,20 @@
 
 	- What became to me obvious at the time was that there was a lack of standards and frameworks that everyon could follow in order to share code, solutions and to unify the way in which servers and systems were built and managed, often leaving it to individuals to do their own thing in a sort of 'home brew' approach.
 
-	- Puppet appeared 
+	- Others were thinking the same or similar at the time and a tool called Puppet, an automation framework, was initially created by Luke Kanies in 2005. It was written in Perl at its inception. Puppet was developed in Perl until version 0.25, which was released in 2007.
+
+	- I had specialised in Perl as a systems programming language since my early attempts to write systems software at the university job and found C to be harder to write in where as Perl got the job done and would run on any system that had a Perl interpreter installed, enabling me to automate tasks on any system, be it a Sun, Linux, Windows or other system.
+
+	- In 2007, Luke Kanies and other developers decided to rewrite Puppet in Ruby, and this transition to Ruby marked a significant change in the project's architecture and development. Puppet's Ruby version, which is now commonly referred to as Puppet 2.0 and beyond, became the dominant and widely adopted version of the tool.
+
+	- I was dissapointed at this move as I thought Perl was the best thing since sliced bread but as with all things, change is something we need to embrace, not resist. I needed to be good at programming and I had up to this point done that by using a single language as much as I could. That is a good approach but as you develop as a developer you need to learn new things and sticking like glue to just one language will ultimately limit you and will innevitaby stunt your growth. I am now what you could call a polyglot programmer, using upward of 5 programming languages at a time and often needing to switch between different languages even in a single project.
+
+	- This kind of 'context switching' is nothing new and if you can do it, you can achieve much more in less time but it takes time to reach this level of competence. 
+
+	- Many I have worked with, some I have trained, they call this 'mentoring' or it could be called 'guiding and advising', anyway, out of any group of poeple in IT some will say 'I dont program' or 'I can't program'. The latter is pretty much a no no these days and the ones that say they dont code often do code but they like to think that using 'no code' frameworks or that editing configuration files and scripts is not programming, when in point of fact it often is, particularly with tools such as Terraform, Ansible and Puppet, manifests or configurations are full on programs, just not written in a programming language that you may be familiar with.
+
+	
+
+Chef, another popular automation framework, was created by Adam Jacob in 2009, several years after Puppet's initial release. Chef was designed to address similar challenges in automating infrastructure and system management, but it took a different approach compared to Puppet. Chef is also written in Ruby and Erlang, and it gained popularity in the DevOps and automation communities as an alternative to Puppet.
+
 
