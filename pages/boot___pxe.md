@@ -75,3 +75,19 @@
 	- Moore's Law is an observation and prediction made by Gordon Moore, co-founder of Intel Corporation, in 1965. He stated that the number of transistors on a microchip would double approximately every two years, which would lead to an exponential increase in computing power while reducing the cost per transistor. In essence, Moore's Law described the rapid pace of advancement in semiconductor technology and the shrinking of electronic components on integrated circuits.
 	- Moore's Law held true for several decades and drove the exponential growth in computing power, making devices smaller, faster, and more affordable. However, by the mid-2000s, it became increasingly difficult to maintain the same rate of transistor scaling due to physical and technological limitations. This slowdown in transistor scaling was often referred to as the "end of Moore's Law."
 
+	- Where PXE became a watch word amongst my colleagues and comtemporaries was in the then world of 'Sun Engineers' as we liked to call ourselves at the time. Sun Microsystems no longer exits, being absorbed and taken over by Oracle. Oracle Corporation acquired Sun Microsystems in a deal that was announced in April 2009 and completed in January 2010. This acquisition marked Oracle's expansion into hardware and systems technology, in addition to its existing software and database business. The acquisition was valued at approximately $7.4 billion and had a significant impact on the technology industry.
+
+	- Up to the Oracle takeover, being a Sun engineer was for me a thing but by the time this happened, I had transitioned pretty much over to Linux and no longer had any leaning toward specific hardware manufacturers as was the case if you worked on large systems prior to 2005. 
+
+	- But if you were trying to be among the cool kids in Sun administration, a badge of honour was to build your own 'PXE boot server'. 
+
+	- So all of the 'daemons', BOOTPd replaced by DHCPd, TFTPd, even local DNS with Named may be used to craft a server to manage servers in not only their boot process and configuration but also in their life cycle from birth to death. By that I mean, each server or system has a life cycle in which, when they start out, the are a clean slate and dont yet serve any specific purpose. They just exist on a shared network, with little more than an address and their base operating system that typically needs to be updated and patched to the latest version as quickly as possible to avoid security breaches.
+
+	- When up and running and updated as best can be, sofware to customise what the server or 'node' does be it a stand alone component or as a member of a cluster or 'node' needs next to be configured. All of this used to be done by hand, by a human being, but as time went on, this became more and more automated. 
+
+	- What we called a PXE boot server tried to automate at least some of this life cycle. For the most part however, each engineer would get as far as biulding the server with an operating system, applying patches and then adding its initial applications and services to serve a specific purpose. Sometimes it may be to just configure its network stack and do some updates. More advanced engineers would have done much more so as to join a cluster, add more applications, configure storage, the list could go on.
+
+	- What became to me obvious at the time was that there was a lack of standards and frameworks that everyon could follow in order to share code, solutions and to unify the way in which servers and systems were built and managed, often leaving it to individuals to do their own thing in a sort of 'home brew' approach.
+
+	- Puppet appeared 
+
