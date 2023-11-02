@@ -103,6 +103,14 @@
 
 	
 
-Chef, another popular automation framework, was created by Adam Jacob in 2009, several years after Puppet's initial release. Chef was designed to address similar challenges in automating infrastructure and system management, but it took a different approach compared to Puppet. Chef is also written in Ruby and Erlang, and it gained popularity in the DevOps and automation communities as an alternative to Puppet.
+	- Chef, another popular automation framework, was created by Adam Jacob in 2009, several years after Puppet's initial release. Chef was designed to address similar challenges in automating infrastructure and system management, but it took a different approach compared to Puppet. Chef is also written in Ruby and Erlang, and it gained popularity in the DevOps and automation communities as an alternative to Puppet.
+
+	- So another nail in the coffin for Perl, as not only a second major framework to replace home made scripts from the likes of me but also a second major framework to replace Puppet. I say the likes of me but I switched to using Puppet as soon as I could get my head round it.
+
+	- One job I did involved Puppet, before I had started to properly learnt it. This is common in IT and particularly Devops / SRE or whatever flavour of infra as code you work in. Things move rapidly and you need to think on your feet and start using things you perhapse havn't even heard of and become productive quickly. There may be no time to have a long learning curve and you may be expected to be productive from day one. This is not always the case but it is not uncommon.
+
+	- So some may stil be building PXE boot servers on former Sun Microsystems servers, now with an Oracle bade but mostly the task of orchestrating builds, configuration and ongoing life cycle management of systems is no longer done by hand, rather, it is done by code and this code may or may not run on a system specifically purposed for this, as was the 'PXE boot' server of old. Orchesdtration platforms themselves enen run in the cloud and upon systems that run for barely minutes, sometimes a few seconds before each is 'destroyed' and replaced by another. This is the world of 'serverless' computing and is a world away from the days of the Sun Microsystems server and the PXE boot server.
+
+	
 
 
