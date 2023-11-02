@@ -120,6 +120,9 @@
 
 	- These new technologies are based on very old ones. Linux is the operating system that Android is based upon. FreeBSD is the operating system that Apple is based upon. Both of these are based upon Unix, and Sun Microsystems was a Unix company. So the world has come full circle and the Unix philosophy of 'do one thing and do it well' is still a thing.
 
-	
+	- The Unix philosophy is a set of cultural norms and philosophical approaches to minimalist, modular software development. It is based on the experience of leading developers of the Unix operating system. Early Unix developers were important in bringing the concepts of modularity and reusability into software engineering practice, spawning a "software tools" movement. Over time, the leading developers of Unix (and programs that ran on it) established a set of cultural norms for developing software, norms which became as important and influential as the technology of Unix itself; this has been termed the "Unix philosophy."
+
+
+	- The Unix philosophy emphasizes building simple, short, clear, modular, and extensible code that can be easily maintained and repurposed by developers other than its creators. The Unix philosophy favors composability as opposed to monolithic design.
 
 
