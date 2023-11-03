@@ -1,1 +1,1 @@
-- I remember thinking way back when the internet was still what we called 'the world wide wait' that security would be something I'd need to spe
+- I remember thinking way back when the internet was still what we called 'the world wide wait' that security would be something I'd need to spend more time on at a later time. I would be better spending my time learning my craft so to speak. This was born out of a mixture of naievety but above all
