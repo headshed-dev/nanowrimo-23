@@ -1,0 +1,3 @@
+- {{renderer :wordcount_}}
+	- Today I joined a discord group for something called autogen.
+	- Autogen is a
