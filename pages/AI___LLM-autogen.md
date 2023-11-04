@@ -1,3 +1,3 @@
 - {{renderer :wordcount_}}
 	- Today I joined a discord group for something called autogen.
-	- Autogen is a
+	- Autogen is an open source project that is stored on
