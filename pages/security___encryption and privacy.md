@@ -1,2 +1,3 @@
-- I worked with PGP and used SSL / TLS from the beginning, even being criticized by old school thinkers for not using plain text network communications
+- {{renderer :wordcount_}}
+	- I worked with PGP and used SSL / TLS from the beginning, even being criticized by old school thinkers for not using plain text network communications
 -
