@@ -30,4 +30,9 @@
 					  (10) Asymmetric Encryption Algorithms: What Are They And How ... - Dataconomy. https://dataconomy.com/2023/07/20/asymmetric-encryption-algorithms/.
 					  (11) Symmetric Encryption vs Asymmetric Encryption ... - Device Authority Ltd. https://www.deviceauthority.com/blog/symmetric-encryption-vs-asymmetric-encryption/. 
 					  ```
-					-
+					- GPG can do symmetric encryption, which means using the same key or passphrase for both encryption and decryption. You can use the `--symmetric` option with the `gpg` command to encrypt a file or data with a symmetric cipher algorithm, such as AES256, TWOFISH, or CAMELLIA256. You can also specify the cipher algorithm with the `--cipher-algo` option. For example, to encrypt a file called `my_file.txt` with AES256, you can use the following command:
+					- `gpg -a --symmetric --cipher-algo AES256 my_file.txt`
+					- This will produce a file called `my_file.txt.asc` that contains the encrypted data in ASCII format. To decrypt the file, you can use the following command:
+					- `gpg -d my_file.txt.asc`
+					- You will be prompted to enter the passphrase that you used to encrypt the file. If you enter the correct passphrase, the decrypted data will be displayed on the screen or written to a file.
+					- For more information on how to use symmetric encryption with GPG, you can refer to these web pages: [GPG encryption guide part 4 (symmetric encryption)](https://tutonics.com/articles/gpg-encryption-guide-part-4-symmetric-encryption/), [How do I symmetrically encrypt a file using gpg?](https://superuser.com/questions/354890/how-do-i-symmetrically-encrypt-a-file-using-gpg), [How to use symmetric (password) encryption with GPG](https://medium.com/@retprogramisto/how-to-use-symmetric-password-encryption-with-gpg-af0d9734d08c).
