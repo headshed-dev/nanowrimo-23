@@ -21,4 +21,13 @@
 	- AI has been with us for literally years and before that, we had precursors to it, expert systems, neural networks, machine learning, deep learning. Google have been indexing the internet for all of us to use and calling it 'the search algorithm' but will have been using AI to assess sites authority and relevance to our search terms for years.
 	- My next steps down the rabit hole of AI, LLMs and potentially Autogen will be to try and run an LLM on a local system. This I think is fundamental to starting out as without it, LLMs would only be able to be run in the cloud and would have cost implications but also, from the perspective of privacy and control of data and IP would be deal breaker for some. I'm not bothered by this but to cut out an entire market place before I even start would be limiting. 
 	- If I can train a model locally, I can train one in the cloud or train locally, saving on compute in the cloud to run the newly trained model in the cloud.
-	- 
+	- With chat gpt, the api is paid for based on the amount of prompts you use.
+	- Each prompt is devoid of any knowledge of the previous prompt, so you have to keep track of the conversation yourself.
+	- This is like web pages, served to the browser, between each page GET, POST, PUT or DELETE, the server has no knowledge of the previous request, it is stateless.
+	- So the pre prompt sent to the api must have enought in it to 'teach' the model what the conversation is about and how we went it to correspnd to us as a response.
+	- If we want to pre-poulate the prompt with previous conversation, we need to keep track of this and iteratively add to the prompt.
+	- Promts are going to grow in size and complexity as the conversation grows.
+	- This works ok for the majority of use cases but I want more. The 'model' that has been trained will have a certain amount of knowledge about the world, but it will be limited to the data that has been used to train it. I've started to notice a sort of personality for each chat AI I've been using.
+	- The most mature is by far Chat-GPT, I would almost consider it my preferred personality and like someone I dont mind striking up a conversation with at the coffee machine, whilst bing chat is a bit cocky and abraisive. Bard is a bit simple and copilot is like a child that has been given a dictionary and a thesaurus of code but is severely blinkered in its ability and understanding of the world.
+	- If I were to feed the whole of my 2nd brain to chat-gpt, in a single prompt, I might get a response back that sort of sounds like me speaking but each subsequent prompt would have to have this entire 2nd brain in it, which would be a lot of data to send to the api and I'm guessing would ramp up the cost of using it, not to mention introduce significant latency.
+	- Training my own model is the only practical way to do this and I'm guessing that this is what autogen or similar tools will hopefully help me to do.
