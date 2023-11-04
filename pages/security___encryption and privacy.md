@@ -39,3 +39,5 @@
 					
 					
 	- I wrote a wrapper for PGP origonally but later used GPG as this became available as open source
+		- this I called 'password monkey' and it took over a process handed to me as being 'thankless' in my role as a systems engineer. We were tasked with changning passwords on servers on a regular and repeated basis. It was imperative that this happened in a way that was secure, could be relied upon and would be sufficiently useable that engineers could recieve updated lists of the latest, working passwords. 
+		- today, this kind of application is pretty much redundant as things like 'hashicorp valut', 'Azure Vault', 'AWS Vault' and other similar tools are available. I have used all of these and a few more but there was a time when non existed and I had to write my own. I am glad I did as it was a great learning experience and I was able to use it to help others and to make my own life easier. I have since written a number of tools that have been used by others and I hope to continue to do so. 
