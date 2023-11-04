@@ -1,2 +1,2 @@
 - {{renderer :wordcount_}}
-	- Monitoring is
+	- Monitoring is something I could put into a category of its own but I put it under a heading of security because it is a security concern. Indeed as time has gone on, I have found it has been entirely ignored by some as we have adopted cloud based solutions and some have assumed that it is someone else's problem.
