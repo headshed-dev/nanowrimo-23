@@ -40,4 +40,4 @@
 		  removing any unused layers
 		  success
 		  ```
-	- this had to be run from the same directory in which ollam is as permission errors
+	- this had to be run from the same directory in which ollam is as permission errors happen if you try otherwise. I believe it may be to do with 'x' executable permission on directories in my home directory ? I don't really care just now, just want to see it working
