@@ -31,7 +31,7 @@
 			- keep the grown ups in the room when designing and planning
 			- truly adopt agile principles, not just micro managed regurgitatons of waterfall, that are not agile, they're fragile
 			- devops, sre, dev, ops are not diferent people, they are one person, capable, willing and able to do at least some if not all in their day jobs
-			- an advanced engineer is not
+			- an advanced engineer is not one of these, they are all of these and can be rewarded accordingly but the road to becoming this 'jack of all trades but master of some' takes time and does not happen because you've just been awar
 		-
 		-
 	-
