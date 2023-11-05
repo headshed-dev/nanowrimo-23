@@ -18,6 +18,7 @@
 		  """
 		  ```
 	- and this is the new local LLM being built
+		-
 		- ```bash
 		  cd /usr/local/bin
 		  ollama create marvin -f ./Modelfile
