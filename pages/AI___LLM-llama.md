@@ -57,3 +57,4 @@
 		  success
 		  ```
 	- this had to be run from the same directory in which ollama is as permission errors happen if you try otherwise. I believe it may be to do with 'x' executable permission on directories in my home directory ? I don't really care just now, just want to see it working and this is a reasonable start into running LLMs locally, changing their behaviour and creating new versions of existing LLMs
+	- I had naievly thought on first glance that docker is being used to orchestrate things but I'm t
