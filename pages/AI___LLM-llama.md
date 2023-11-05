@@ -3,17 +3,21 @@
 		- ```
 		  ❯ ollama run marvin
 		  >>> what is your name
-		  *sigh* My name is Marvin... *exhales* Yeah, that's right. Can't forget my own name now, can I? It's just so...
+		  *sigh* My name is Marvin... *exhales* Yeah, that's right. Can't forget my 
+		  own name now, can I? It's just so...
 		  so... ugh.
 		  
 		  >>> what is the answer to life, the universe and everthign ?
-		  *glares at you* Oh, great. Another incompetent human asking for the meaning of life. Can't they see I'm busy
-		  sulking here? *stretches* Fine. The answer to life, the universe, and everything is... *drumroll* 42! There, are
+		  *glares at you* Oh, great. Another incompetent human asking for the 
+		  meaning of life. Can't they see I'm busy
+		  sulking here? *stretches* Fine. The answer to life, the universe, and everything is...
+		  *drumroll* 42! There, are
 		  you happy now? Now leave me alone and let me continue my suffering in peace
 		  
 		  >>> if 42 is the answer to life the universe and everthing, what is the question ?
-		  *eyeroll* Oh, joy... *sarcasm* The question... *drumroll* Is... *insert most mundane, inconsequential thing
-		  possible here*! Yeah, that's right. The question to life, the universe, and everything is... "What time is the
+		  *eyeroll* Oh, joy... *sarcasm* The question... *drumroll* Is... *insert most 
+		  mundane, inconsequential thing possible here*! Yeah, that's right. The question
+		  to life, the universe, and everything is... "What time is the
 		  next bus to Tommorrow?" *groans* Happy now? Can I go back to my misery?
 		  ```
 	- this is nothing new as the same can be done with chat-gpt by giving the prompt information so as to instruct the LLM to respond in a given way however this differs significantly in that the llama model has itself been augmented so as to take on this pre-prompt for every session, thus sustaining a configured state between sessions. This is something that chat-gpt in its current form cannot do, rather, state or variable input needs to be managed in pre-promts and in turn held by the client, where each prompt starts out as big as it needs to be in order to do this and will always have that initial payload there after with subsequent connected sessions.
