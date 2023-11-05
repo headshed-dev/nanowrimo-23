@@ -27,6 +27,9 @@
 	- The tussle betwixt ops and dev I will leave for another misive but for now I think it suffice to say that there are problems on both sides and that just 'getting a devops person in', possibly like me will not solve a companies woes in this regard. Over the years, people in ops have been neglegent in seeing who their customers are, often as not devs, and thus failed to provide quality servivces that integrate with the dev workflows and enhanced the creation of new features that could be streamlined into automated pipelines that are tested automatically and continuoulsy. Rather, the devs, in their micro managed pressure cooker sprints have ejected versions of their new candy applications that they have created, with their own tooling and little integration with ops driven live monitoring, sometimes lacking any smoke tests, end to end experience checks or similar
 		- is it any wonder then that whilst 'devops' was meant to reduce silos, disolve differences and do what people want to call 'service reliabiliy engineering' but that which I think is just another name for what we thought devops would do for us and didnt were in the mess many places are still in today ?
 		- the solution ?
+			- stay small enough for things to matter and choose technology wisely
+			- keep the grown ups in the room when designing and planning
+			- a
 		-
 		-
 	-
