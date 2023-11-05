@@ -29,7 +29,8 @@
 		- the solution ?
 			- stay small enough for things to matter and choose technology wisely
 			- keep the grown ups in the room when designing and planning
-			- a
+			- truly adopt agile principles, not just micro managed regurgitatons of waterfall, that are not agile, they're fragile
+			- devops, sre, dev, ops are not
 		-
 		-
 	-
