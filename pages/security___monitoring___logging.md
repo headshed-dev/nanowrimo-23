@@ -12,6 +12,7 @@
 		- Elastic - big takeover by Amazon and open source is used against us
 		- Kibana - the thing a lot of poeple I think thought was doing all the work
 		- Graylog - agents and like it was lazer beams in outer space
-	- 
+	- Each solution typically has its own mechanisms and 'dialects' you need to understand in order to query data from 'the logs' so to speak but there can be some similarites in that even today, try as many do, things from the past just wont go away, despite some people hating them and trying to make them go away, one such is `Regex` ( regular expressions ) that deserve an entire book TODO , indeed I still have somewhere my Orielly text of just that, an entire book on these things described as 'line noise' ( seemingly random characters streamed from a network or telephone line )
+	-
 		- 
 	-  
