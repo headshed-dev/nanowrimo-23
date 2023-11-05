@@ -30,7 +30,8 @@
 			- stay small enough for things to matter and choose technology wisely
 			- keep the grown ups in the room when designing and planning
 			- truly adopt agile principles, not just micro managed regurgitatons of waterfall, that are not agile, they're fragile
-			- devops, sre, dev, ops are not
+			- devops, sre, dev, ops are not diferent people, they are one person, capable, willing and able to do at least some if not all in their day jobs
+			- an advanced engineer is not
 		-
 		-
 	-
