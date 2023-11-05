@@ -20,6 +20,6 @@
 	- cost is key to all this in terms of how much storage we have allocated to holding these millions or more of logs and how long we want to keep them for
 	- anecdotally, I recall that at one place where someone had a bee in their bonnet about using Splunk, they got a license to use it but needed to agressively delete logs that it stored as they were so great that the costs charged for storing them was so great it broke the budget for having them. Once pruned, the logs that were left were of little value as there wasnt enough history to do meaninful analysis to find out if there were trends we needed to act upon. In another place I saw how graylog was configured to use a virtualised cluster in AWS and this worked ok for a time, not having heavy price permits on the amount of data logged however, the processing power required and the size of disk used went up and up over time untill the Graylog cluster, comprising now of 3 or more significant VMs and let us say, quite a lot of disk became one of the biggest and expensive services in that AWS tenancy
 	- We talk a lot about SaaS ( Software as a Service ) and as you can imagine, tools that essentially do logging can be very, very profittable and if you can convince people that by using theirs as opposed to doing it yourself or using another solution you will gain an edge over the competition
-		-
+	- What used to be the domain of the 'ops' person to implement logging and event analysis solutions
 		-
 	-
