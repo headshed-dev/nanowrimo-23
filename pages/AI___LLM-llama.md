@@ -3,4 +3,4 @@
 		- ```
 		  
 		  ```
-	- this is nothing new
+	- this is nothing new as the same can be done with chat-gpt by giving the prompt information so as to instruct the LLM to respond in a given way
