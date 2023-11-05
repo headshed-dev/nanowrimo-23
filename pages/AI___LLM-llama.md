@@ -18,6 +18,7 @@
 		  """
 		  ```
 	- and this is the new local LLM being built
+	  collapsed:: true
 		-
 		- ```bash
 		  cd /usr/local/bin
@@ -39,3 +40,4 @@
 		  removing any unused layers
 		  success
 		  ```
+	- this had to be run from the same directory in which ollam is as permission errors
