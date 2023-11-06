@@ -1,10 +1,11 @@
-- in this video
-	- by **Marius Espejo** who featured a playlist with [netninja nestjs crash course](https://www.youtube.com/watch?v=pcX97ZrTE6M&list=PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr)
-		- {{video https://www.youtube.com/watch?v=nY0R7pslbCI}}
-	- my interest with nestjs is renewed, having worked a project in Go and React that lacks any of this build pattern, let alone the capabilities that NextJS has built in from the get go
-	- following from this is the series in flight by Dave Gray so far
-		- part 1
-			- {{video https://www.youtube.com/watch?v=juNVinepwKA&t=9s}}
-		- part 2
-			- {{video https://www.youtube.com/watch?v=otw0zQ0NSa4}}
-	- as for hosting, I would go for my own vm, docker and local file store or encrypted buckets for current use cases but another interesting approach is to go for a variety of BaaS providers for which [back4app](https://blog.back4app.com/nest-js-hosting-providers/) themselves a BaaS summarize a number of options in this regard, some are even free forever tier, offering zero cost start up and possibly not-for-profit / charity options
+-
+	- in this video
+		- by **Marius Espejo** who featured a playlist with [netninja nestjs crash course](https://www.youtube.com/watch?v=pcX97ZrTE6M&list=PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr)
+			- {{video https://www.youtube.com/watch?v=nY0R7pslbCI}}
+		- my interest with nestjs is renewed, having worked a project in Go and React that lacks any of this build pattern, let alone the capabilities that NextJS has built in from the get go
+		- following from this is the series in flight by Dave Gray so far
+			- part 1
+				- {{video https://www.youtube.com/watch?v=juNVinepwKA&t=9s}}
+			- part 2
+				- {{video https://www.youtube.com/watch?v=otw0zQ0NSa4}}
+		- as for hosting, I would go for my own vm, docker and local file store or encrypted buckets for current use cases but another interesting approach is to go for a variety of BaaS providers for which [back4app](https://blog.back4app.com/nest-js-hosting-providers/) themselves a BaaS summarize a number of options in this regard, some are even free forever tier, offering zero cost start up and possibly not-for-profit / charity options
