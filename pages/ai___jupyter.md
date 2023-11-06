@@ -11,4 +11,4 @@
 	- I like this from the [Jupyter web site](https://jupyter.org/) :
 		- > JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. A modular design invites extensions to expand and enrich functionality.
 	- I got a few comments back from a question I put onto the autogen discord group. I had to do this as they make you do this and a couple of other things in order to join the group. So I ended up asking a pretty dumb question as, at the beginning of my journey with AI tools, specifically autogen, which is only released in September of this year, led me to ask if I needed to learn Jupyter notebooks if I am to even use autogen. Autogens github repository shows it as being mainly Jupyter but it isnt. TODO repetition
-	-
+	- Colab looks like a usefull source of free compute, combined with Jupyter so I need to look at this as it would be silly not to, as if there are compute resourc
