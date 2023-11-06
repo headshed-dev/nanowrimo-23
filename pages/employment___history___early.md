@@ -6,4 +6,5 @@
 	- when we start out in life, the expectations were in my youth that we buy a car, a house or several if we are fortunate to do so, save money if we can afford to and invest for our later life and retirement
 		- are these goals now attainable
 		- were they ever attainable
-		- are these goals and expectations used
+		- are these goals and expectations used for or against us as individuals in order to coerce us into doing things we did not intend to do or want to do but have to in order to achieve them
+		-
