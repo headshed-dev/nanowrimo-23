@@ -1,2 +1,2 @@
 - {{renderer :wordcount_}}
-	- Chat-GPT in barely a year now has become a game changer for data and tech workers like me
+	- Chat-GPT in barely a year now has become a game changer for data and tech workers like me but has become accessible to programmers and non alike. This is because of its interface being chat based, allowing us to type normal sentenc
