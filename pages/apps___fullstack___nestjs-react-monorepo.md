@@ -4,4 +4,6 @@
 	- my interest with nestjs is renewed, having worked a project in Go and React that lacks any of this build pattern, let alone the capabilities that NextJS has built in from the get go
 	- following from this is the series in flight by Dave Gray so far
 		- part 1
-		-
+			- {{video https://www.youtube.com/watch?v=juNVinepwKA&t=9s}}
+		- part 2
+			- {{video https://www.youtube.com/watch?v=otw0zQ0NSa4}}
