@@ -18,4 +18,4 @@
 		- *Code cells* contain runnable code.
 		- *Output cells* contain the result from the last execution of the associated code cell.
 		- *Markdown cells* are display-only and can be used to edit and display richly-formatted (but static) text, including hyperlinks, images, diagrams, and so on.
-	- So I don
+	- So I dont think I need to fear Jupyter but I could have been a bit stupid not using it up to now, as this is built in to Colab, by Google and I'm missing out on something I can at least use that has free compute and is accessible an
