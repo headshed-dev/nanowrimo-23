@@ -1,5 +1,5 @@
 - {{renderer :wordcount_}}
-	- I got quite confused looking at
+	- I got quite confused looking at [autogen](https://github.com/microsoft/autogen) thinking it was all written in jupyter notebooks which in point of fact it clearly isint
 	- I like this from the [Jupyter web site](https://jupyter.org/) :
 		- > JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. A modular design invites extensions to expand and enrich functionality.
 		-
