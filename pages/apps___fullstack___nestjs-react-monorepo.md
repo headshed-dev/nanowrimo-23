@@ -2,7 +2,7 @@
 	- it is nodejs, typscript and based on expressjs but also can do fastify, yet another
 		- Fastify is **a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture**. It is inspired by Hapi and Express and as far as we know, it is one of the fastest web frameworks in town.
 		  id:: 65493270-0601-4e8d-8f79-26d580a58393
-	-
+	- I think this fits in sort of with writings to do with monitoring as something not done yet is webcheck, I think I can use that name as they have now stopped using it entirely which used apache, cgi and ssl ( tls )
 	- in this video
 		- by **Marius Espejo** who featured a playlist with [netninja nestjs crash course](https://www.youtube.com/watch?v=pcX97ZrTE6M&list=PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr)
 			- {{video https://www.youtube.com/watch?v=nY0R7pslbCI}}
