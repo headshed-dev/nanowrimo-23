@@ -1,3 +1,4 @@
 - {{renderer :wordcount_}}
 	- are employers trusted to give us a fair return for our time and effort given
-	- do we, as employees, give a fair and justifyable level of servi
+	- do we, as employees, give a fair and justifyable level of service with our time and energy to our employers
+	- are we able to enjoy what we do and do we have a right to be happy in our lives in work and if we are not happy should we seek to impo
