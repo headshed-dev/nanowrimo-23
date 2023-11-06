@@ -1,4 +1,4 @@
--
+- this to do with restul apis, nestjs is one of the most respected ( according to my reading so far ) restapi frameworks
 	- in this video
 		- by **Marius Espejo** who featured a playlist with [netninja nestjs crash course](https://www.youtube.com/watch?v=pcX97ZrTE6M&list=PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr)
 			- {{video https://www.youtube.com/watch?v=nY0R7pslbCI}}
