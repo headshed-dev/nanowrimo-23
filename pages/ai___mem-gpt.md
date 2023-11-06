@@ -12,4 +12,5 @@
 	- This results in a 'paylooad' that is ever increasing and it why, in the case of bing chat for instance, you are limited in the amount of questions you can ask before having to start a new conversation.
 	- What in truth happens at the API endpoint is that your 'question' which for each transaction, or rather, further questions become truncations of each, get parsed into that we would call 'words' but what in GPT are now 'tokens'. Some words are just 1 token each but longer words, that it categorizes as 2 or more concepts or meanings can be 2 or more 'tokens'. The amount of tokens a chat can have are limited by each LLM. Chat GPT 3.5 turbo will have less tokens that it can accomodate as opposed to GPT 4, which is more expensive to buy and which will handle significantly more of these 'tokens'.
 	- When your chat grows in size, at the moment the agent just bumps off the older tokens and thus loses information related to your chat when you first started out. This is why long running chats tend to lose the point of what you started out with on the free version of Chat GPT but the same is innevitable with newer, more expensive versions of the same.
-	- the new
+	- the new phrase 'Mem-GPT' is based on papers and speakers that have tweeted and presented what they like to describe as a sort of 'operating system' for LLMs
+	-
