@@ -12,4 +12,10 @@
 		- > JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. A modular design invites extensions to expand and enrich functionality.
 	- I got a few comments back from a question I put onto the autogen discord group. I had to do this as they make you do this and a couple of other things in order to join the group. So I ended up asking a pretty dumb question as, at the beginning of my journey with AI tools, specifically autogen, which is only released in September of this year, led me to ask if I needed to learn Jupyter notebooks if I am to even use autogen. Autogens github repository shows it as being mainly Jupyter but it isnt. TODO repetition
 	- Colab looks like a usefull source of free compute, combined with Jupyter so I need to look at this as it would be silly not to, as if there are compute resources in the cloud we dont at least for now, have to pay for then not using them would be plain dumb.
-	- I was pinged to look at Polyglot Notebooks for VSCode and this in turn links to [interactive FAQ](https://github.com/dotnet/interactive/blob/main/docs/FAQ.md)
+	- I was pinged to look at Polyglot Notebooks for VSCode and this in turn links to [interactive FAQ](https://github.com/dotnet/interactive/blob/main/docs/FAQ.md) that has this to say about what a notebook is :
+		- ### [What is a notebook?](https://github.com/dotnet/interactive/blob/main/docs/FAQ.md#what-is-a-notebook)
+		- A "computational notebook" is a type of program that allows mixing formatted text and executable code to create documents with runnable examples. Notebooks are an example of [literate programming](https://en.wikipedia.org/wiki/Literate_programming). A notebook has "cells" which are different text regions. There are commonly three different kinds of cells:
+		- *Code cells* contain runnable code.
+		- *Output cells* contain the result from the last execution of the associated code cell.
+		- *Markdown cells* are display-only and can be used to edit and display richly-formatted (but static) text, including hyperlinks, images, diagrams, and so on.
+	- So I don
