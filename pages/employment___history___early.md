@@ -3,4 +3,7 @@
 	- do we, as employees, give a fair and justifyable level of service with our time and energy to our employers
 	- are we able to enjoy what we do and do we have a right to be happy in our lives in work and if we are not happy should we seek to improve the situation either where we are or by moving employment ?
 	- should employers see us as members of their family, pawns in a game of chess in a game in which the house always wins or as raw materials used in order to create profit and for which we even have 'human resource' as a role now embedded within organizations, replacing entirely the former 'personnel managements' which is all but obsolete
-	- when we start out in life, the expectations were in my youth that we buy a car, a house or several if we are fortunate to do so, save money if we can afford to and invest
+	- when we start out in life, the expectations were in my youth that we buy a car, a house or several if we are fortunate to do so, save money if we can afford to and invest for our later life and retirement
+		- are these goals now attainable
+		- were they ever attainable
+		- are these goals and expectations used
