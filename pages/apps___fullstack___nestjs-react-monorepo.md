@@ -3,7 +3,7 @@
 		- Fastify is **a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture**. It is inspired by Hapi and Express and as far as we know, it is one of the fastest web frameworks in town.
 		  id:: 65493270-0601-4e8d-8f79-26d580a58393
 	- I think this fits in sort of with writings to do with monitoring as something not done yet is webcheck, I think I can use that name as they have now stopped using it entirely which used apache, cgi and ssl ( tls to you an me today ) plus further encryptions with PGP made it quite difficult for network security to read it- which is why they didnt like it in my opinion
-	- seeing as I was reading the first orieilly text on restful apis post to Y2K I think this pertinent as we were using 'GET' predominately with parameters to do much of what is available to RESTful GET, POST, et. al. in the 'modern day' so we were ahead of the curve on that one, thanks to Mr John Connor
+	- seeing as I was reading the first O'Reilly text on restful APIs post to Y2K I think this pertinent as we were using 'GET' predominately with parameters to do much of what is available to RESTful GET, POST, et. al. in the 'modern day' so we were ahead of the curve on that one, thanks to Mr John Connor
 	- in this video
 		- by **Marius Espejo** who featured a playlist with [netninja nestjs crash course](https://www.youtube.com/watch?v=pcX97ZrTE6M&list=PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr)
 			- {{video https://www.youtube.com/watch?v=nY0R7pslbCI}}
