@@ -1,4 +1,4 @@
 - {{renderer :wordcount_}}
 	- Chat-GPT in barely a year now has become a game changer for data and tech workers like me but has become accessible to programmers and non alike. This is because of its interface being chat based, allowing us to type normal sentences into a text input and have the AI recieve it, interpret our speech and respond with answers that are also in the same natural language.
 	- I can understand why this has caused such a rucus amongt our political elites who are repeatedly tardy in their lives and personal study habits as regards the march of technogy such that when a bombshell like this appears, they react a lot of them like clucky chicken says that the sky is falling in.
-	- I do agree that this poses an ex
+	- I do agree that this poses an exstostential threat to our lives when an enabling technology like this gets into the hands of axe wielding homicial mainiacs, terrororists and anarchists. That's a given.
