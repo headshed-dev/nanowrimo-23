@@ -1,2 +1,3 @@
 - {{renderer :wordcount_}}
-	- are employers trusted to give us a faire
+	- are employers trusted to give us a fair return for our time and effort given
+	- do we, as employees, give a fair and justifyable level of servi
