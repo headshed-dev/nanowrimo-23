@@ -1,1 +1,2 @@
-- Chat-GPT
+- {{renderer :wordcount_}}
+	- Chat-GPT in barely a year now has become a game changer for data and tech workers like me
