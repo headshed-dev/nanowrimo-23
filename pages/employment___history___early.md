@@ -1,4 +1,5 @@
 - {{renderer :wordcount_}}
 	- are employers trusted to give us a fair return for our time and effort given
 	- do we, as employees, give a fair and justifyable level of service with our time and energy to our employers
-	- are we able to enjoy what we do and do we have a right to be happy in our lives in work and if we are not happy should we seek to impo
+	- are we able to enjoy what we do and do we have a right to be happy in our lives in work and if we are not happy should we seek to improve the situation either where we are or by moving employment ?
+	- should employers see us as members of their family or as pawns in a game\\\\\\\\\\\\\\\
