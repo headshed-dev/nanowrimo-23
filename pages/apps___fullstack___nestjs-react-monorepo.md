@@ -1,3 +1,3 @@
 - in this video
-	- by **Marius Espejo**
+	- by **Marius Espejo** who featured a playlist with
 		- {{video https://www.youtube.com/watch?v=nY0R7pslbCI}}
