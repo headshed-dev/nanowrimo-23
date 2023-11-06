@@ -7,3 +7,4 @@
 			- {{video https://www.youtube.com/watch?v=juNVinepwKA&t=9s}}
 		- part 2
 			- {{video https://www.youtube.com/watch?v=otw0zQ0NSa4}}
+	- as for hosting, I would go for my own vm, docker and
