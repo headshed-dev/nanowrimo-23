@@ -1,6 +1,7 @@
 - {{renderer :wordcount_}}
 	- I got quite confused looking at [autogen](https://github.com/microsoft/autogen) thinking it was all written in jupyter notebooks which in point of fact it clearly isnt, rather its all in `.py` ( python ) where as the notebook files, of which there are many under the directory name of the same, for example `agentchat_function_call.ipynb` all ending in `.ipynb` which coerce the github algorythm into classifying the project as jupyter notebook. It isnt but this is a common effect of the same mis-apprehension and skewed computation that takes place on other projects I work on now, Dart / Flutter being a case in point.
-	- Modern frameworks no longer just exist as themelves, written in C, coded in C, stored in C
+	- Modern frameworks no longer just exist as themelves, written in C, coded in C, stored in C, there is nothing else to see here but C.
+	- I became aware back in the early noughtys, when I was le
 	- I like this from the [Jupyter web site](https://jupyter.org/) :
 		- > JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. A modular design invites extensions to expand and enrich functionality.
 		-
