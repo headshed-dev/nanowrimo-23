@@ -7,4 +7,4 @@
 		- are these goals now attainable
 		- were they ever attainable
 		- are these goals and expectations used for or against us as individuals in order to coerce us into doing things we did not intend to do or want to do but have to in order to achieve them
-		-
+	- I recently was given a copy of a former work colleague's paper that they wrote for the MSc that they did
