@@ -9,4 +9,5 @@
 		- are these goals and expectations used for or against us as individuals in order to coerce us into doing things we did not intend to do or want to do but have to in order to achieve them
 	- I recently was given a copy of a former work colleague's paper that they wrote for the MSc that they did whilst working at the same company
 		- I was struck by their acknowledgement of the managers and engineers in that organization and the gratitude that they expressed in regards to the help and support that each of these as individuals and a group which was given freely and without expectation of return or profit
-	- has this story persisted to the current day ? Despite my extreme desire to be paranoid android
+	- has this story persisted to the current day ? Despite my extreme desire to be Marvin the paranoid android I cannot bring myself to think that it does not as to do so would be to consign humanity to the wastebasket and I am not a nihilist.
+	- My experience however is
