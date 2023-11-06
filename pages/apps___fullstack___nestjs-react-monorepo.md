@@ -1,4 +1,5 @@
 - in this video
 	- by **Marius Espejo** who featured a playlist with [netninja nestjs crash course]({{video https://www.youtube.com/watch?v=pcX97ZrTE6M&list=PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr}})
 		- {{video https://www.youtube.com/watch?v=nY0R7pslbCI}}
+	- my interest with nestjs is renewed, having worked a project in Go and React that lacks any of this build pattern, let alone the capabilities that NextJS has built in from the get go
 	-
