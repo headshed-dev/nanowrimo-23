@@ -1,0 +1,2 @@
+- this video from leabse
+	- advanced transition in astro
