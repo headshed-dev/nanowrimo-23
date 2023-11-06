@@ -7,4 +7,4 @@
 			- {{video https://www.youtube.com/watch?v=juNVinepwKA&t=9s}}
 		- part 2
 			- {{video https://www.youtube.com/watch?v=otw0zQ0NSa4}}
-	- as for hosting, I would go for my own vm, docker and
+	- as for hosting, I would go for my own vm, docker and local filestore or encrypted buckets for current use cases but another interesting approach is to go for a variety of BaaS providers for which https://blog.back4app.com/nest-js-hosting-providers/)\\\\\\\\\\\\\\\\\
