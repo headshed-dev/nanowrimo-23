@@ -15,4 +15,6 @@
 				- {{video https://www.youtube.com/watch?v=otw0zQ0NSa4}}
 		- as for hosting, I would go for my own vm, docker and local file store or encrypted buckets for current use cases but another interesting approach is to go for a variety of BaaS providers for which [back4app](https://blog.back4app.com/nest-js-hosting-providers/) themselves a BaaS summarize a number of options in this regard, some are even free forever tier, offering zero cost start up and possibly not-for-profit / charity options
 - {{renderer :wordcount_}}
-	- If your in any way aware of technology you will have heard the phrase API, meaning Application Program Interface and another closely associated RESTful API
+	- If your in any way aware of technology you will have heard the phrase API, meaning Application Program Interface and another closely associated RESTful API to quote AWS pages
+		- Representational State Transfer (REST) is a software architecture that imposes conditions on how an API should work. REST was initially created as a guideline to manage communication on a complex network like the internet. You can use REST-based architecture to support high-performing and reliable communication at scale. You can easily implement and modify it, bringing visibility and cross-platform portability to any API system.
+	-
