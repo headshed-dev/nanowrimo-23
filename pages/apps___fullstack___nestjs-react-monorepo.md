@@ -74,5 +74,6 @@
 	- APIs are something I will never stop learning about as they are the things that front apps use to be interactive and without which would nto be able to function, so selecting the right framework to develop APIs in is critical. Picking one which is as some may say 'opinionated', that is, guides or restricts the developer into a way of working that follows best practice can help get to market faster sometimes and can mean making something that is more resilient and robust, even more maintainable and easier to work with over time. So NestJS has to be on the list for this kind of activity.
 	- Another tool is FastAPI, another framework similiar in purpose to that of NestJS but rather, written in Python, so if your invested in learning only one language and that is Javascript, FastAPI is not you but if your polyglot, like me, then you can consider either in this regard. It has a quick startup and less steep learning curve that NestJS arguably but I think that NestJS has a lot more to offer in the long run. I like in both that type safety is a feature and that they both use the OpenAPI specification to document the APIs that are created. This is a standard that is used to describe APIs and is a good thing to use as it is a standard that is well known and understood and can be used to generate code for clients that use the APIs.
 - {{renderer :wordcount_}}
-	- with all these tools flying around, you
+	- with all these tools flying around, you'd think that all we have to do is just pick the right one and we're off to the races
 	-
+-
