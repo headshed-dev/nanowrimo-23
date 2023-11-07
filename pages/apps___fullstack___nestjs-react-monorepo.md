@@ -32,7 +32,21 @@
 	  (4) GitHub - swaggo/gin-swagger: gin middleware to automatically generate .... https://github.com/swaggo/gin-swagger.
 	  (5) Getting Started with Swagger: An Introduction to Swagger Tools. https://swagger.io/resources/webinars/getting-started-with-swagger/.
 	  (6) undefined. https://github.com/swaggo/swag.
-	-
+	- netsjs could be our only hope aside of fastAPI
+		- Yes, NestJS can create Swagger documentation for your REST API using the @nestjs/swagger module. This module allows you to generate a specification that conforms to the OpenAPI standard by using decorators. You can also use the Swagger UI to interact with your API and view the documentation in a browser. To learn more about how to set up Swagger in your NestJS app, you can check out these web resources:
+		- [OpenAPI (Swagger) | NestJS - A progressive Node.js framework](^1^)
+		- [GitHub - nestjs/swagger: OpenAPI (Swagger) module for Nest framework (node.js)](^2^)
+		- [Adding live documentation to YOUR REST API with Swagger and NestJS](^3^)
+		- [Generate API Documentation Using Swagger Module in NestJS - LUKI NOTES](^4^)
+		- [Swagger API Documentation Tips and Tricks in NestJS - Trilon](^5^)
+		  
+		  Source: Conversation with Bing, 07/11/2023
+		  (1) OpenAPI (Swagger) | NestJS - A progressive Node.js framework. https://docs.nestjs.com/recipes/swagger.
+		  (2) GitHub - nestjs/swagger: OpenAPI (Swagger) module for Nest framework .... https://github.com/nestjs/swagger.
+		  (3) Adding live documentation to YOUR REST API with Swagger and Nest.js. https://dev.to/itnext/adding-live-documentation-to-your-rest-api-with-swagger-and-nest-js-211e.
+		  (4) Generate API Documentation Using Swagger Module in NestJS - LUKI NOTES. https://www.lukinotes.com/2022/05/nestjs-generate-swagger-api-documentation.html.
+		  (5) Swagger API Documentation Tips and Tricks in NestJS - Trilon. https://trilon.io/blog/nestjs-swagger-tips-tricks.
+		  (6) undefined. https://nestjs.com.
 - {{renderer :wordcount_}}
 	- If your in any way aware of technology you will have heard the phrase API, meaning Application Program Interface and another closely associated RESTful API to quote AWS pages
 		- Representational State Transfer (REST) is a software architecture that imposes conditions on how an API should work. REST was initially created as a guideline to manage communication on a complex network like the internet. You can use REST-based architecture to support high-performing and reliable communication at scale. You can easily implement and modify it, bringing visibility and cross-platform portability to any API system.
