@@ -14,7 +14,22 @@
 			- part 2
 				- {{video https://www.youtube.com/watch?v=otw0zQ0NSa4}}
 		- as for hosting, I would go for my own vm, docker and local file store or encrypted buckets for current use cases but another interesting approach is to go for a variety of BaaS providers for which [back4app](https://blog.back4app.com/nest-js-hosting-providers/) themselves a BaaS summarize a number of options in this regard, some are even free forever tier, offering zero cost start up and possibly not-for-profit / charity options
-- I tried to take a look at go restapi, with the vain hopes to get swagger working with the app we currently have and found a youtube video from only 6 months ago, which you would have thought would work but no, it
+- I tried to take a look at go restapi, with the vain hopes to get swagger working with the app we currently have and found a youtube video from only 6 months ago, which you would have thought would work but no, it fails miserably, needing to downgrad 10 versions of swag as the ones after this break, creating code that does not even compile so totally useless
+	- I understand your frustration with the outdated or incompatible versions of the swag and gin-swagger tools. I have searched the web for a reliable example of getting started with Go, Gin and Swagger that actually works with the latest versions of these tools. Here is what I found:
+	- [How to Integrate Swagger UI in Go Backend - Gin Edition](^2^) by Santosh Kumar. This is a detailed tutorial that shows how to set up Swagger UI for a Go Gin project using swag v1.7.9 and gin-swagger v1.3.1. It also explains how to add annotations, customize the Swagger UI, and use the Swagger Editor to validate the documentation.
+	- [Documenting Go web APIs with Swag](^4^) by Francis Sunday. This is another comprehensive guide that demonstrates how to use swag v1.7.9 and gin-swagger v1.3.1 to create Swagger documentation for a Go Gin API. It also covers how to use the swag init command, how to structure the code, and how to test the API with Postman.
+	- [How to add Swagger in Golang Gin](^3^) by Lemoncode21. This is a shorter and simpler tutorial that shows how to use swag v1.7.9 and gin-swagger v1.3.1 to add Swagger documentation to a Go Gin project. It also provides a video and a Github repository with the source code.
+	  
+	  I hope these examples help you get started with Go, Gin and Swagger without having to downgrade the swag command line tool. 😊
+	  
+	  Source: Conversation with Bing, 07/11/2023
+	  (1) How to Integrate Swagger UI in Go Backend - Gin Edition. https://santoshk.dev/posts/2022/how-to-integrate-swagger-ui-in-go-backend-gin-edition/.
+	  (2) Documenting Go web APIs with Swag - LogRocket Blog. https://blog.logrocket.com/documenting-go-web-apis-with-swag/.
+	  (3) How to add Swagger in Golang Gin. | by Lemoncode21 | Medium. https://lemoncode21.medium.com/how-to-add-swagger-in-golang-gin-6932e8076ec0.
+	  (4) GitHub - swaggo/gin-swagger: gin middleware to automatically generate .... https://github.com/swaggo/gin-swagger.
+	  (5) Getting Started with Swagger: An Introduction to Swagger Tools. https://swagger.io/resources/webinars/getting-started-with-swagger/.
+	  (6) undefined. https://github.com/swaggo/swag.
+	-
 - {{renderer :wordcount_}}
 	- If your in any way aware of technology you will have heard the phrase API, meaning Application Program Interface and another closely associated RESTful API to quote AWS pages
 		- Representational State Transfer (REST) is a software architecture that imposes conditions on how an API should work. REST was initially created as a guideline to manage communication on a complex network like the internet. You can use REST-based architecture to support high-performing and reliable communication at scale. You can easily implement and modify it, bringing visibility and cross-platform portability to any API system.
