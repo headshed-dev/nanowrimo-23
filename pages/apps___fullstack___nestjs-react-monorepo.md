@@ -22,4 +22,4 @@
 		  End-to-end typesafe APIs made easy.
 		  Experience the full power of TypeScript inference to boost productivity
 		  for your full-stack application.
-		-
+	- Graphql is another with
