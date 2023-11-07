@@ -27,4 +27,5 @@
 	- While we're at it lets not forget gRPC from google
 		- >A high performance, open source universal RPC framework
 	- These are a snapshot of what I'm currently keeping an eye on that I bring to mind just now suffice to say there is always a lot of stuff going on.
-	- I noticed, as did many bigger better minds than this little bear, that there are common issues we are faced with and patterns that tend to repeat themselves when building APIs. We t
+	- I noticed, as did many bigger better minds than this little bear, that there are common issues we are faced with and patterns that tend to repeat themselves when building APIs.
+		- We tend to pronounce API as the letters, A, P, I by the way, so you don't embarass yourself talking to a tech guru by saying 'whats an appy?
