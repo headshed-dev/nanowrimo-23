@@ -1,3 +1,3 @@
-- hre
+- Firebase Crashlytics can record both crashes and non-fatal exceptions. Crashes are unhandled exceptions that terminate the app, while non-fatal exceptions are handled exceptions that do not cause the app to crash. [You can use FirebaseCrashlytics.getInstance().recordException(e) to log non-fatal exceptions on Crashlytics](https://stackoverflow.com/questions/43092383/log-non-fatal-errors-on-crashlytics)[1](https://stackoverflow.com/questions/43092383/log-non-fatal-errors-on-crashlytics). [You can also use FirebaseCrashlytics.getInstance().log(message) to add custom log messages to your crash reports](https://firebase.google.com/docs/crashlytics/customize-crash-reports)[2](https://firebase.google.com/docs/crashlytics/customize-crash-reports).
 	- [Customize your Firebase Crashlytics crash reports (google.com)](https://firebase.google.com/docs/crashlytics/customize-crash-reports?platform=flutter)
 	-
