@@ -22,4 +22,6 @@
 		  End-to-end typesafe APIs made easy.
 		  Experience the full power of TypeScript inference to boost productivity
 		  for your full-stack application.
-	- Graphql is another with
+	- Graphql is another stating that
+		- > GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
+	- These are a snapshot of what I'm
