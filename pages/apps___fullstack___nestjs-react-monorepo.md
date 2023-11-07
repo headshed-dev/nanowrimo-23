@@ -26,4 +26,5 @@
 		- > GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
 	- While we're at it lets not forget gRPC from google
 		- >A high performance, open source universal RPC framework
-	- These are a snapshot of what I'm currently keeping an eye on that I bring to mind just now suffice to say there is always a lot of
+	- These are a snapshot of what I'm currently keeping an eye on that I bring to mind just now suffice to say there is always a lot of stuff going on.
+	- I noticed, as did many bigger better minds than this little bear, that there are
