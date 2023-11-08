@@ -63,8 +63,8 @@
 		- I have found this to be very powerful as it starts to become a test framwork that extends from the developement life cycle, so if you can develop your applications with this in mind, you can simply carry on running a subset of your integration tests as part of your monitoring solution. This is a very powerful thing to have.
 		- Sadly, this is often not done and situations I have seen are where it has not only been overlooked but also made almost impossible to do, where customer service websites may only recieve requests from valid customers, with bank accounts and billing history together with a host of highly confidentail data. Runing a test in this kind of environment would require in some cases for a fake bank account to be set up, with a fake billing history and fake customer data. This is not something that is practical, even legal to do.
 		- The only way really to achieve this kind of quality of service monitoring is to build it in from the start and to have a test framework that can be used for both testing and monitoring. - All too often I've been met with blank stares when trying to set up even the simplest form of interactive monitoring, on large systems and small, where testers even have asked me 'why to you need this ?'. At least we need to say 'why to _we_ need this ?' as it is not just the devops guy that needs this, it is everyone that is responsible for the service.
-		-
-		- active / passive - polling intervals, passive / polling
-		- transports https, smtp, icmp
-		- submarine
-		- healthcheck, containers, API endpoints, 100% automated, on my laptop
+- {{renderer :wordcount_}}
+	- active / passive - polling intervals, passive / polling
+	- transports https, smtp, icmp
+	- submarine
+	- healthcheck, containers, API endpoints, 100% automated, on my laptop
