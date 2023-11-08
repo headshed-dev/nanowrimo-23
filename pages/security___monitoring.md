@@ -66,4 +66,4 @@
 		- active / passive - polling intervals, passive / polling
 		- transports https, smtp, icmp
 		- submarine
-		- healthcheck
+		- healthcheck, containers, API endpoints, 100% automated, on my laptop
