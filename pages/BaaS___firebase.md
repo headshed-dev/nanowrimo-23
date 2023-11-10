@@ -3,4 +3,6 @@
 	- > Add custom log messages
 	  To give yourself more context for the events leading up to a crash, you can add custom Crashlytics logs to your app. Crashlytics associates the logs with your crash data and displays them in the [Firebase console](https://console.firebase.google.com/project/_/crashlytics), under the Crashlytics **Logs** tab.
 	- this costs a lot of money if we were to go with other solutions and would not even be as low latency, as many would not even be in google cloud, outside and subject to additional network hops, almost a non brainer
+- {{renderer :wordcount_}}
+	-
 	-
