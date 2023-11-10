@@ -24,3 +24,4 @@
 
 	= So I think that the web is still the most important place to be, and that social media is just a tool to get people to your web site. I also think that the web is the most important place to be because it is the only place where you can have control over your content, and that is important not just to me but many others that do just this. 
 	
+	a household rickety shed from a garden in which my head is at, there is lots of noise, bangs bumps and sawing noises and great industry
