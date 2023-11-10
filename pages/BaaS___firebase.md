@@ -6,3 +6,5 @@
 - {{renderer :wordcount_}}
 	- Growing up I was familiar with a now pretty much obsolete form of retailer, an ironmonger. I have fond memories of visiting the ironmongers and would wonder at all the things that were in the shop. It seemed that everything I could imagine as ever important was in there. Being a young boy of course, hitting things in with a hammer and nails or sawing a piece of wood for a shelf thing or screwing something into the wall with raw plugs and using a power drill or sanding something to paint it, all the things that i could ever want for or need were in the ironmongers. A veritable cave of delights was set there before me. The person at the shop counter was sometimes a formidable opponent that could make your day a difficult one if they felt like it, so acted as a gatekeeper to accessing things from this cave of riches. So much like life today really. I was thus well prepared for a life in tech.
 	-
+	- I became for a time what is called a Perlmonger - one that is associated with the Perl programming language and as such attended technical and social meetings in this regard.
+	-
