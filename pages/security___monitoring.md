@@ -133,4 +133,27 @@
 	- Before anyone started to adopt it, even in small companies, cloud providors offering Platform as a service, such as Azure for instance, often will be using kubernetes or similar in their back-ends and when implementing applications in their platforms as docker containsers or web applications, we will occaisionally get a peek at the underlying infrastrucure when viewing deploy logs. Other container orchestration platforms are available, such as Docker Swarm, Mesos and others but Kubernetes is becoming the de facto standard.
 	- when choosing one kind of database over another, I often think back to an evening I had the honour of spening with a guy called Philip Hazel, at Cambridge University once. I was on a course for Exim ( Experimental Mail Server ) as it was this tehat we ran alongside Webcheck. I was in atendance with a Dave Markham, a fellow colleague in that team and we were each allocated a table at dinnder that evening. We happened to be placed with Philip. Whilst we avoided converstation regarding Exim as that was the subject of the days discuourse, we inevitably came back to Exim and databases vs the filesystem. Phillip Hazel said somethitng that struck me then as now, he said that in some use cases, the filesystem, believe it or not is pretty quick so it is not always necessary to use a database. I often recall this insight when architecting anything and consider if it is necessary to implement a component such as a database, cache, web server, message queue, asking myself, are we over engineering here, sometimes, keeping is simple is the best way to go.
 - {{renderer :wordcount_}}
-	- here
+	- Monitoring is done in two modes typically, active and passive
+		- active monitoring is where a server is polling a list of servers and services and reporting back to a central database or state store
+		- passive monitoring is where a server is listening for incoming requests from other servers and services and reporting back to a central database or state store
+		- active monitoring is the most common and is the mode that Webcheck useed
+		- passive monitoring is something often used in systems that rely on Simple Network Management Protocol (SNMP) and is often used in network monitoring solutions
+		- passive monitoring is also used in systems that rely on the Syslog protocol
+		- when sytems rely heavily on passively received data, they often augment this also with active monitoring, either to confirm that the data that is recieved passively is correct or if they fail to recieve passive status reports
+		- some monitoring solutions can be configured to only recieve passive alerts
+			- this last mode of operation I would only rely on for non important enents as it is not reliable
+			- if a system has stopped responding, it is not likely to be able to send a passive alert, so like the submarine that is silent, it is not likely to be able to send a passive alert and could have disappeared without trace
+			- if the submarine is important to us, we would be actively talking to its crew members over time and leading up to any incident or issue, we would be monitoring its status and performance and helicopters, rescue ships, the whole caboodle would alredy be on its way to assist in the event of a problem
+				- it is surprising how often I have come across scenarios where this is not the case and a system has been left to its own devices, only to be discovered to be in a state of failure, often with no evidence of when this happened or why
+				- more so it is not uncommon for me to come across this way of thinking that passive alertsing is sufficient for production monitoring and alerting
+		- polling intervals are important to review, as are passive ones as whichever is used both imply system resources being utilised
+			- it has not been uncommon for some to think high polling is not a problem, leading on occaisions to a degradation of performance of the monitoring system itself and even, of the systems being monitored
+			- this all depends on the nature of monitoring, as to how honerous this process is and how much resource it consumes
+		- monitoring data needs to be managed and decisions need to be made as to how much data historically are to be maintained
+		- a service level agreement needs to be agreed upon in some instances where multiple stakeholders are involved lest someone have the idea that 5 minute data will be available for ever, when it cannot be, due to the amount of data that would be generated
+			- data agregration may be required where by some data over time periods may be calculated as max, min, avg for example, as does RRD and which is a widely accepted priciple
+			- some data may be deleted after a period of time, such as 1 year, 5 years, 10 years, etc.
+			- within an active period of say 7 days for example, it may be acceptable to delete data for successful checks, once reports have been agregated, leaving only failed checks for further analysis
+		- all these are considerataions and decisions that need to be made when implementing a monitoring solution depending on the service level agreements that are in place for both the service being monitored and the monitoring solution itself
+		- a service level agreement for a jet engine, such as those used in aircraft, may be very different to that of a web site, such as a news site or a social media site, so there would not be a one size fits all agreement but there are some common principles that can be applied to all services
+		
