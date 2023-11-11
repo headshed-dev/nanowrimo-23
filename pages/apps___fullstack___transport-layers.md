@@ -23,8 +23,8 @@
 	- ```bash
 	- #!/bin/bash
 	  while read line; do
-	- # Process each line of the email
+	  # Process each line of the email
 	    echo "Processing line: $line"
 	  done
-	- ```
+	  ``````
 -
