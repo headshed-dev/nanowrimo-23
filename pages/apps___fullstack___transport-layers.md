@@ -29,5 +29,5 @@
 	  ```
 - then in our unix account we add a `.forward` file containing something like
 	- `"|/path/to/your/script.sh"`
-- this was fine when we were building our own email servers and email transports using sendmail, exim, postfix et. al. but thanks to the spam kings out there, running
+- this was fine when we were building our own email servers and email transports using sendmail, exim, postfix et. al. but thanks to the spam kings out there, running an email server is left to the expert, well established and recognised providers, be they microsoft with outlook, yahoo
 - Only thing is, who has a Unix account on a server that is configure to recieve email locally these days ?
