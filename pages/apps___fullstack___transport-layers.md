@@ -21,10 +21,10 @@
 	  Create a script or program that will process the incoming email. This script could be written in any scripting or programming language you are comfortable with, such as Bash, Python, Perl, etc. The script should read the email content from standard input (stdin) or from a file.
 	- Example script (`process_email.sh` in Bash):
 	- ```bash
-	- #!/bin/bash
+	  #!/bin/bash
 	  while read line; do
 	  # Process each line of the email
 	    echo "Processing line: $line"
 	  done
-	  ``````
--
+	  ```
+- then in our unix account we add a `.forward` file co
