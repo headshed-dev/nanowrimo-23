@@ -1,4 +1,5 @@
-- conversation in a kitchen with a programmer that works for the wealthy business owner
+- {{renderer :wordcount_}}
+	- conversation in a kitchen with a programmer that works for the wealthy business owner
 	- talking about new frameworks for front end user interfaces and back end languages
 	- the programmer is quite well educated sounding and has been speding tiem talking to an ops person that is not that technical and doesnt write code and are not therefor a threat
 	- this new person in the kitchen is expressing his opinions on the new UI technogies he is interested in and has experimented with, all be it, in his own time, not company time
