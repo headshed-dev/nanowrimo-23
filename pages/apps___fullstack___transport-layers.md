@@ -27,4 +27,7 @@
 	    echo "Processing line: $line"
 	  done
 	  ```
-- then in our unix account we add a `.forward` file co
+- then in our unix account we add a `.forward` file containing something like
+	- `"|/path/to/your/script.sh"`
+- this was find
+- Only thing is, who has a Unix account on a server that is configure to recieve email locally these days ?
