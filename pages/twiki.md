@@ -4,4 +4,4 @@
 	- This quickly evolved into something many people like to call Jira today. A company wide knowlege base where all your documentation can live and be searchable.
 	- case study
 		- a jira document store holding information going back to the companies start holds documents and howtos by employees long gone and of varying quality
-		- some examples would be of how to fix a broken service by running an SQL query. The problem is that the SQ
+		- some examples would be of how to fix a broken service by running an SQL query. The problem is that the SQL query does not do what the person has documented it to do, more over it has no result that could even resemble what needs to be done, it is just a badly copied quiery from the persons personal knowlege base and that
