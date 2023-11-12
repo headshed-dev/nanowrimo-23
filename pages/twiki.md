@@ -1,4 +1,6 @@
 - {{renderer :wordcount_}}
 	- Twiki was a Perl based wiki created by a guy called Peter Thoeny. I took a look at their web site and blog, both of which sadly look a little outdated by todays standards. The first thing I noticed wat the copyright notice that went up to 2022, but we are in 23 now, so the footer hasnt been updated possibly for a year and lacks javascript that could update this on the fly for them but perhaps there is a reason for this so I wont be picky. Their blog shows an entry from March 2021 so doesnt look like its doing that much right now.
 	- Back in the day, Wikimedia was a new thing and we were all looking for a way to make our content real and interesting. As a productivity tool, I started looking for self hosted wiki like services I could use to keep my personal notes and documentation.
-	- This quickly evolved into something many people like to call Jira today. A p
+	- This quickly evolved into something many people like to call Jira today. A company wide knowlege base where all your documentation can live and be searchable.
+	- case study
+		- a jira document store holding information going back to the companies
