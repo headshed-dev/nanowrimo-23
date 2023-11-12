@@ -1,2 +1,2 @@
 - {{renderer :wordcount_}}
-	- Twiki was a Perl based wiki created by a guy called Peter Thoeny. I took a look at their web site and blog, both of which sadly look
+	- Twiki was a Perl based wiki created by a guy called Peter Thoeny. I took a look at their web site and blog, both of which sadly look a little outdated by todays standards. The first thing I noticed wat the copyright notice that went up to 2022, but we are in 23 now, so the footer hasnt been updated possibly for a year and lacks
