@@ -3,3 +3,4 @@
 	- train an AI to speak with clients, who have things in their minds that they ask for
 		- can you do and app
 		- can you do a website
+		- can you do a firewall
