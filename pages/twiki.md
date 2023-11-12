@@ -3,4 +3,5 @@
 	- Back in the day, Wikimedia was a new thing and we were all looking for a way to make our content real and interesting. As a productivity tool, I started looking for self hosted wiki like services I could use to keep my personal notes and documentation.
 	- This quickly evolved into something many people like to call Jira today. A company wide knowlege base where all your documentation can live and be searchable.
 	- case study
-		- a jira document store holding information going back to the companies
+		- a jira document store holding information going back to the companies start holds documents and howtos by employees long gone and of varying quality
+		- some examples would be of how to fix a broken service by running an SQL query. The problem is that the SQ
