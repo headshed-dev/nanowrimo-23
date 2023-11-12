@@ -23,15 +23,16 @@
 	  
 	  a household rickety shed from a garden in which my head is at, there is lots of noise, bangs bumps and sawing noises and great industry
 - {{renderer :wordcount_}}
-	- Static site genarators are many and varied. The simplest form may be written, as was my early work building a web site for a School of Computing, a series of bash and Perl scripts that generate HTML files from a series of text files and images. This is how the first web sites were built and is still a valid way of building a web site today. 
+	- Static site genarators are many and varied. The simplest form may be written, as was my early work building a web site for a School of Computing, a series of bash and Perl scripts that generate HTML files from a series of text files and images. This is how the first web sites were built and is still a valid way of building a web site today.
 	- There are tools aplenty to do this for us so now, writing your own scripts to do this is not necessary. There are many tools that do this for us and they are written in many different languages. The most popular of these are written in JavaScript and Python. So if you really need to, you can extend these tools to do what you need them to do if they do not already do this for you.
 	- Most are mature enough for them to do anything you need and by simply applying yourself to learning how to use them, you can get pretty much anything you need done to publish web content.
 	- The most popular of these tools are Jekyll, Hugo, Gatsby, Pelican and Eleventy. There are many others and you can find a list of them at https://jamstack.org/generators/
-	- Being a JavaScript developer, I have used Gatsby to great success but also being a Go programmer whenever I can I was attracted to use Hugo. 
+	- Being a JavaScript developer, I have used Gatsby to great success but also being a Go programmer whenever I can I was attracted to use Hugo.
 	- Hugo is written in Go and is very fast. It is also very easy to use and has a lot of themes and plugins that you can use to get your site up and running quickly.
 		- it is interesting as this approach enables users to create large amounts of content very quickly, in some cases this could give the illusion of a site being dynamic when in fact it is not. So you could have a highly reacive, static site that offers up to date information and content that is generated from a static site generator, without haveing to have a database and a server side scripting language like PHP or ASP.
-		- I think that is kind of out of the box thinking has legs. All your content would ideally be delivered on CDNs ( content devliver networks ) which are designed to deliver content quickly and efficiently and above all cheaply. 
-	
-	- Most recently Astro has got a lot of pulicity as it has a really innovative approach to static site generation coupled with its ability to embed React and other poplular components into the pages it generates. 
-		- this approach is interesting because of the comments I make earlier as regards Hugo. Astro, although javascript and typescript based which are not going to reach the levels of performance as would Hugo for just raw text parsing and geneeration but it is at its core vastly stripped down as would be for example Gatsby. It is therefore much faster in comparison to Gatsby and very efficient. 
+		- I think that is kind of out of the box thinking has legs. All your content would ideally be delivered on CDNs ( content devliver networks ) which are designed to deliver content quickly and efficiently and above all cheaply.
+	- Most recently Astro has got a lot of pulicity as it has a really innovative approach to static site generation coupled with its ability to embed React and other poplular components into the pages it generates.
+		- this approach is interesting because of the comments I make earlier as regards Hugo. Astro, although javascript and typescript based which are not going to reach the levels of performance as would Hugo for just raw text parsing and geneeration but it is at its core vastly stripped down as would be for example Gatsby. It is therefore much faster in comparison to Gatsby and very efficient.
 		- Astro is static site generator first by default however it can also act in a dual mode where it can be used as a server side rendering engine. This is interesting as it means that you can have a static site that is also dynamic, with SSR ( server side rendering ) you can have a site that is both static and dynamic at the same time.
+- {{renderer :wordcount_}}
+	- here
