@@ -1,5 +1,5 @@
 - {{renderer :wordcount_}}
 	-
-	- train an AI to speak with clients, who have things in theeir that people ask for
+	- train an AI to speak with clients, who have things in their minds that they ask for
 		- can you do and app
 		- can you do a website
