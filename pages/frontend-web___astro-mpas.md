@@ -23,4 +23,6 @@
 	  
 	  a household rickety shed from a garden in which my head is at, there is lots of noise, bangs bumps and sawing noises and great industry
 - {{renderer :wordcount_}}
-	- here
+	- Static site genarators are many and varied. The simplest form may be written, as was my early work building a web site for a School of Computing, a series of bash and Perl scripts that generate HTML files from a series of text files and images. This is how the first web sites were built and is still a valid way of building a web site today. 
+	- There are tools aplenty to do this for us so now, writing your own scripts to do this is not necessary. There are many tools that do this for us and they are written in many different languages. The most popular of these are written in JavaScript and Python. So if you really need to, you can extend these tools to do what you need them to do if they do not already do this for you.
+	- Most are mature enough for them to do anything you need and by simply applying yourself to learning how to use them, you can get pretty much anything you need done to publish web content.
