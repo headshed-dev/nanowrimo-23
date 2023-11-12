@@ -1,3 +1,10 @@
 - {{renderer :wordcount_}}
-	- here
-	-
+	- in the begining, before the internet had form, connections had to be made by hand
+	- a basic technology that we still use today although is likely used by security people and sysadmins is telnet
+	- telnet is a protocol that allows you to connect to a remote computer and interact with it using a command line interface
+	- telnet is not secure, it sends all data in plain text and is not encrypted leading to a security risk
+	- before SSH however, telnet was the only way to connect to a remote computer that was Unix based. 
+	- Windows had a similar protocol called RDP, but it was not as widely used as telnet back in the before times 
+	- Windows was not in existence until 1985, and it was not until 1993 that Windows NT was released, which was the first version of Windows that was based on the NT kernel (NT stands for New Technology, which still makes me laugh as we would say 'NT Technolgoies' in the 90s, which is like saying 'New Technology Technologies')
+	- Much is said of recent about privacy, the privacy bill in the US, the GDPR in the EU, and the CCPA in California. In the UK, new privacy laws are being enacted that will threaten encryption where it is used to communicate over chat apps. This is due to the exponential increase of 
+	- 
