@@ -18,6 +18,6 @@
 	- by far then, windows is best. I dont like to hear myself say that but by dint of the numbers, windows rules supreme. Interestingly, Android is by far the most used platform for mobile, so logically, if your after reaching as many mobile users as you can, Android is the clear winner but not if you want rich ones. In the US and eleswhere in the first world, rich people or rather those that want to be rich or think that they are, all have iOS devices. Its a thing ok. Get over it. However if you go to the orient, in particular China, its a very, very different story and surprise surprise to the iOS evangelst, Android is everywhere and Apple is not so super cool.
 	- Forgetting the geopolitics and social greasy poles, if you can choose a programming language that can be used to write a piece of software that can run on all of these systems, you have a single language that can run on all these systems. You have a universal language that can be used to run anything, anywhere.
 	- Surely then, Java would do this.
-	- Funny that, but it seems that in the browser at least, you need do do a lot of difficult and
+	- Funny that, but it seems that in the browser at least, you need do do a lot of difficult and unpleasant things for the average user to get Java to run in the browser. Most devices uses browsers, despite ChromeOS being so low in our charts, the browser is still how most p
 -
 -
