@@ -1,14 +1,9 @@
 - {{renderer :wordcount_}}
 	- whats the worlds most used language
-- | Operating System | Desktop | Laptop | Tablet | Mobile | Server |
-  | ---------------- | ------- | ------ | ------ | ------ | ------ |
-  | Windows         | 75.32%  | 76.45% | 4.21%  | 0.03%  | 72.10% |
-  | macOS           | 16.89%  | 15.62% | 2.86%  | 0.01%  | 0.70%  |
-  | Linux           | 2.29%   | 2.54%  | 0.67%  | 0.02%  | 13.60% |
-  | Chrome OS       | 1.77%   | 1.83%  | 0.11%  | 0.00%  | 0.00%  |
-  | Android         | 0.68%   | 0.56%  | 69.64% | 72.38% | 0.00%  |
-  | iOS             | 0.62%   | 0.51%  | 21.61% | 26.95% | 0.00%  |
-  | Other           | 2.43%   | 2.49%  | 0.90%  | 0.61%  | 13.60% |
+	- thisi
+- According to Statista, the number of internet users worldwide in 2023 was about 4.88 billion, and the number of internet-connected devices per person was about 6.58. This means that the total number of internet-connected devices in the world was about 32.14 billion. Assuming that this number represents the total number of devices in the world, we can multiply it by the market share of each operating system to get the number of devices using each operating system. For example, the number of devices using Windows was about 24.21 billion (75.32% of 32.14 billion), and the number of devices using Android was about 23.25 billion (72.38% of 32.14 billion).
+  However, this method does not account for the number of servers in the world, which are also devices that use operating systems. According to IDC, the number of servers shipped worldwide in 2023 was about 12.4 million, and the number of servers installed worldwide in 2023 was about 64.7 million. Assuming that these numbers represent the total number of servers in the world, we can multiply them by the market share of each operating system to get the number of servers using each operating system. For example, the number of servers using Windows was about 46.6 million (72.10% of 64.7 million), and the number of servers using Linux was about 8.8 million (13.60% of 64.7 million).
+  Therefore, using this method, the ratio of devices to servers in the world using each operating system was as follows:
 - | Operating System | Devices | Servers | Ratio |
   | ---------------- | ------- | ------- | ----- |
   | Windows         | 24.21 billion | 46.6 million | 519.7:1 |
