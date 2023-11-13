@@ -1,0 +1,1 @@
+Log of my progress as a technology worker with the aim of making something that is of use to others that follow. © 2023 by Jon Brookes is licensed under CC BY-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/

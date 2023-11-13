@@ -1,3 +1,11 @@
+# nanowrimo-23
+
+This is a git repository that contains a logseq graph that is a journal of my attempt to complete 30 days of writing for the month of November 2023.
+
+Most of the content is in the form of markdown files that are stored in the [pages](./pages) and [journals](./journals) directories.
+
+---
+ 
 These are the entries for Jon's attempt to complete 30 days of writing for the month of November 2023. 
 
 It is participating in [nanowrimo](https://nanowrimo.org/) for the same.
@@ -17,6 +25,8 @@ As these writing are commited to this git repository, they may simply be read us
  [pages](./pages) 
  
  directories or alternatively by downloading the logseq application and opening the repository in that application so as to experience the way in which the content has been authored.
+
+## Technology
 
 If using Logseq, having downloaded this repository to a local directory
 
