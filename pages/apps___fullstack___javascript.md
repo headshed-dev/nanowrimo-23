@@ -15,6 +15,6 @@
 		  | iOS             | 8.71 billion  | 0 million    | ∞:1     |
 		  | Other           | 0.78 billion  | 8.8 million  | 88.6:1  |
 	- so, if I'm to take this highly scientific research of mine seriously, I can deduce that windows is pretty popular, being in billions 24, Android is next at 23, iOS at 8.7, macOS at 5.48, linux chrome and other make up to 2
-	- by far then,
+	- by far then, windows is best. I dont like to hear myself say that but by dint of the numbers, windows rules supreme. Interestingly, Android is by far the most used platfor
 -
 -
