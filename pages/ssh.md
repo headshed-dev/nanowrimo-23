@@ -29,4 +29,76 @@
 	- Teleport is another option, which is a tool that allows you to connect to servers and run commands and scripts on them. It has a hosted version, which is free for up to 5 users, and a self hosted version, which is free for up to 5 users. It is a very useful tool for automating tasks on multiple servers at the same time.
 	- TailScale is another option, which is a tool that allows you to connect to servers and run commands and scripts on them. It has a hosted version, which is free for up to 5 users, and a self hosted version, which is free for up to 5 users. A self hosted version called Headscale which you can host yourself, using tailscale client technology, which is also open source.
 - {{renderer :wordcount_}}
-	- here
+	- ssh can be used to extend our reach to other servers in order to access services that are running on remote endpoints, as if they were hosted locally. This is done using a technique called 'tunnelling' where we create a tunnel between our local machine and a remote server. This tunnel allows us to access services that are running on the remote server as if they were running on our local machine. SSH can be made to achieve this with something like the following 
+		- ```bash
+		ssh -N -R <local-port>:localhost:<remote-port> <user>@<remote-server>
+		```
+		where `<local-port>` is the port on our local machine that we want to use to access the service, `<remote-port>` is the port on the remote server that the service is running on, `<user>` is the user that we want to connect as, and `<remote-server>` is the remote server that we want to connect to.
+		-R is the option that tells ssh to create a reverse tunnel, which is a tunnel that allows us to access services that are running on the remote server as if they were running on our local machine.
+		-N is the option that tells ssh not to execute a remote command, which is the default behaviour of ssh when connecting to a remote server.
+
+		and here is an example of how this might be used to access a remote servers database, running MySQL on port 3306, from our local machine on port 3306:
+		```bash
+		ssh -N -R 3306:localhost:3306 username@remote-server
+
+		``` 
+		- this would allow us to connect to the remote servers database from our local machine using the following command:
+		```bash
+		mysql -h localhost -P 3306 -u username -p
+		```
+	- So by running one or more ssh commands on a local system, we can connect that remote servers and access their services as if they were local.
+	- another common use of ssh is to access things like a web service that is behind a trusted host. Sometimes this is called a 'bastion' or 'jump server'. This is a common scenario where services and hosts are running on networks that are not available to external connections. This is a common practice in many organisations where there is a need to access services that are running on internal networks from external networks. 
+		- a connection to the bastion host is established
+		```bash
+		ssh -L <local-port>:<web-server>:<web-service-port> <bastion-user>@<bastion-host>
+		```
+		where <local-port> is a local port on our local machine
+		<web-server>: The internal IP address or hostname of the web server.
+		<web-service-port>: The port on which the web service is running on the web server.
+		<bastion-user>: Your username on the bastion host.
+		<bastion-host>: The IP address or hostname of the bastion host.
+		for example
+		```bash
+		ssh -L 8080:web-server:80 bastion-user@bastion-host
+		```
+		- next dynamic port forwarding is used to create a SOCKS proxy on our local machine
+		```bash
+		ssh -D <local-socks-port> <bastion-user>@<bastion-host>
+		``` 
+		where <local-socks-port> is a local port on our local machine
+		
+		Now, you can access the web service by opening your web browser and navigating to http://localhost:<local-port>. The traffic will be tunneled through the bastion host to the web server.
+
+	- another use of ssh is to, with a single ssh command, jump through a bastion server to access one that is running behind it, using the the ProxyJump or -J option in the ssh command to connect to a host that is behind a bastion host. Here's the syntax:
+	```bash
+	ssh -J <bastion-user>@<bastion-host>:<bastion-port> <target-user>@<target-host>:<target-port>
+	```
+	<bastion-user>: Your username on the bastion host.
+	<bastion-host>: The IP address or hostname of the bastion host.
+	<bastion-port>: The SSH port on the bastion host (usually 22).
+	<target-user>: Your username on the target host.
+	<target-host>: The IP address or hostname of the target host.
+	<target-port>: The SSH port on the target host (usually 22).
+	-J is the option that tells ssh to connect to a host that is behind a bastion host.
+	for example
+	```bash
+	ssh -J bastion-user@bastion-host:22 target-user@target-host:22
+	```
+	Alternatively, you can use the older syntax without the -J option:
+
+	```bash
+	ssh -o "ProxyJump=<bastion-user>@<bastion-host>:<bastion-port>" <target-user>@<target-host>:<target-port>
+	```
+	but it is more common practice to store this in your ssh config file, which is located at ~/.ssh/config on Linux and Mac OS X, and %USERPROFILE%\.ssh\config on Windows. Here is an example of how this might look:
+	```bash
+	Host target-host
+    HostName <target-host>
+    User <target-user>
+    Port <target-port>
+    ProxyJump <bastion-user>@<bastion-host>:<bastion-port>
+	```
+	then, to access the remote server using the bastion host, you would use the following command:
+	```bash
+	ssh target-host
+	```
+	Both configurations achieve the same result: tunneling through the bastion host to connect to the target host. Save the changes to your ~/.ssh/config file, and then you can use the simplified ssh target-host command.
