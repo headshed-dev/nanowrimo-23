@@ -102,3 +102,5 @@
 	ssh target-host
 	```
 	Both configurations achieve the same result: tunneling through the bastion host to connect to the target host. Save the changes to your ~/.ssh/config file, and then you can use the simplified ssh target-host command.
+	- so there are many use cases for ssh and it has many more, not yet discussed here but it is possible to use just SSH to manage remote hosts securey over secure, public private key encryption without VPNs or other proprietary services
+	- SSH itslelf can be hardened or itself accessed using VPN solutions in ways that reduce attack serfaces and increase security whilst still allowing remote access to remote hosts with relative ease
