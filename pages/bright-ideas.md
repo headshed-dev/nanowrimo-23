@@ -1,6 +1,8 @@
 - {{renderer :wordcount_}}
-	- When your choosing to be a writer or content creator, we are told that we need to do things like "find your niche" or "find your voice". 
+	- When your choosing to be a writer or content creator, we are told that we need to do things like "find your niche" or "find your voice".
 	- When I started work at a University I asked if I could sit in on lectures as this was something I could do at that place I knew could never happen anywhere else. I could augment my existing degree by attending lectures in other subjects.
 	- I was encouraged to study for a Masters and others I met along the way were MScs and Phds that had taken similar paths. However I needed money and was not financially independant by a long stretch. So I found work in commercial sectors where the money was better. But I did not stop learning and finding new things to learn about.
 	- As with a Masters and then a PhD learning and research has to be for a reason. It is not good enough to just wake up one day and take it on yourself to find out about something that is not going to be of use to anyone else or is a daliance, a hobby or a new shiny thing. So I adopted this same approach and looked at things that would better me as a person and be better at what I did for a living. I also looked at things that would be of use to others and that I could share with others and things that were becoming trends or were going to be trends in the future.
 	- This is something I call 'new waves' or a much bigger thing 'paradigm shifts'. Waves happen much more frequently, like surfing, the waves are coming in all the time. some times they come in bigger and better according to the time of year and seasons. Technology follows a similar pattern. Paradigm shifts are much bigger and happen less frequently. They are like the tides, they are much bigger and have a much bigger impact on the world.
+- {{renderer :wordcount_}}
+	- here
