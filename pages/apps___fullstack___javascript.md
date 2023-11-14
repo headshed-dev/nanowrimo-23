@@ -20,83 +20,77 @@
 	- Surely then, Java would do this.
 		- Funny that, but it seems that in the browser at least, you need do do a lot of difficult and unpleasant things for the average user to get Java to run in the browser. Most devices uses browsers, despite ChromeOS being so low in our charts, the browser is still how most humans are consistently able to access the internet
 - {{renderer :wordcount_}}
-	- on the internet, in videos and in courses, people are taking it often on themselves to learn to program. I schools and educaton here in the UK where I grew up, computing and programming was pretty much an unknown. I watched Open University programs on the tv as a child as it was the one source of technical information I could get and besides this, it was Tomorrows World and that was your lot. 
+	- on the internet, in videos and in courses, people are taking it often on themselves to learn to program. I schools and educaton here in the UK where I grew up, computing and programming was pretty much an unknown. I watched Open University programs on the tv as a child as it was the one source of technical information I could get and besides this, it was Tomorrows World and that was your lot.
 	- Sadly though, if anything, the technical coverage and inforamtion in general media and in education in particular seemed over the years to decrease in quality, not get better. Programming has never as far as I am aware become a core skill of schooling, being relegated to after school activities and compmputer clubs that were run by volunteers. The marjority of teaching staff in schools were not technical and had no interest in it. As Microsoft moved into schools, the default becoame Microsoft and the BBC Micro and Acorn computers were replaced by Windows PCs. Soon all children were learning was how to use powerpoint, word and excel. It was percieved that this was all that was needed.
 	- When I started out wanting to learn program, I had already taught myself by copying from magazines of the day for the ZX Spectrum and ZX81 which were the hardware I had had access to. Others at that time were the Commodore 64, the Amigas, BBC Micro, Acorn Atom. I would have loved to get my hands on all of them but being eternally skint and the cost of hardware in the 80s was prohibitive.
-	- It was a really bad time to be alive if you wanted to use tech but we didnt know how bad it was, as we didnt have any tech. 
-	- So what to program in was then, well, limited to the platforms you had limited access to, so for me it was Assembler and Basic. Machine code and Assembler were completely baffling to a young kid with just a few magaziines he could afford with his pocket money and the odd book he could get from the library, so I stuck with Basic. 
+	- It was a really bad time to be alive if you wanted to use tech but we didnt know how bad it was, as we didnt have any tech.
+	- So what to program in was then, well, limited to the platforms you had limited access to, so for me it was Assembler and Basic. Machine code and Assembler were completely baffling to a young kid with just a few magaziines he could afford with his pocket money and the odd book he could get from the library, so I stuck with Basic.
 	- Today we have a slew of languages to choose from, but the problem is, which one to choose and we now suffer from decision paralysis there are so many to choose from.
 	- My learning to write in different languages has taught me one thing, that which ever langage you choose, you should be able to achieve pretty much similar results in all of them, unless you've really chosen a bad one. So picking something that is widely used and can run upon multiple platforms is a good to have. Back in the before times, you typically ended up writing in the few languages that the platform you were using supported. The very idea of being able to choose a language that could run on multiple platforms was a far and misty dream. On placement when I went through University I ported code from Data Generals all written in RPG 2 to a language called Cyber Query. The latter was the start of languages that ran on different platforms, in this case on Unix, Solaris and Sun hardware but this would have had other targets too. RPG 2 however was something you would not likely find yourself writing on general purpose PCs or workstations and was very much a language of the mainframe.
-	- When I look at the estate of hardware I can write software for and which languages I can write in, I find a big hitter is Javascript. Its not a very nice language to write in. In the Y2K days it was quite plainly horrible. Despite this, I worked with engineers that at the time used it in Netscape server software to wrtie back end code, as well as that which ran in the browser. When Microsoft destroyed Netscapes market place in the browser wars, this approach became long forgotten. 
+	- When I look at the estate of hardware I can write software for and which languages I can write in, I find a big hitter is Javascript. Its not a very nice language to write in. In the Y2K days it was quite plainly horrible. Despite this, I worked with engineers that at the time used it in Netscape server software to wrtie back end code, as well as that which ran in the browser. When Microsoft destroyed Netscapes market place in the browser wars, this approach became long forgotten.
 	- Little did we know that Javascript would become the most used language in the world.
-	- Google however happened and one of the things they needed to do was to create technologies that can crawl the web, find content, index it and present it to us, its users to anwers for our searches. 
-	- To do this, they would have used headless bots. Im guessing as they didnt like Perl and favoured Python and Java that some of these bots would have been written in these languages and the uptake of Python in particular more or less wiped out Perl as a language of choice for web development. 
+	- Google however happened and one of the things they needed to do was to create technologies that can crawl the web, find content, index it and present it to us, its users to anwers for our searches.
+	- To do this, they would have used headless bots. Im guessing as they didnt like Perl and favoured Python and Java that some of these bots would have been written in these languages and the uptake of Python in particular more or less wiped out Perl as a language of choice for web development.
 	- The browser though was a big problem. Not just because of the browser wars and Microsofts tactics to destroy Netscape, but also they introduced technologies into their browsers that others did not support. Standards compliatn browsers like Netscape and Mozilla were not able to keep up with Microsofts pace of innovation and so the web became a mess of incompatible technologies.
 	- As time went on and an increasing reliance upon Javascript in the browser took hold, a traditional web crawler would not be able to crawl the web as it would not be able to execute the Javascript in the browser.
 	- So Google went about creating a headless browser that could execute Javascript and crawl the web. This was called Chrome and it was a game changer. We all know what happened next. Google open sourced the technology and it became the basis of the Chromium project.
 	- Not only did Chrome become a dominant technology but also, others saw its potentioal and NodeJS was born. NodeJS is a Javascript runtime that can run on the server. This was a game changer. Now you could write code in Javascript that could run on the server and in the browser. Just like you could all those years ago with Netscape Server. History repeats itself.
 	- Other projects came out of this, Electron for example, which is a framework for writing desktop applications in Javascript, it uses NodeJS and Chromium to do this. Many applications your using today are written in Electron. Slack is one that surprises most, Discord is another. VSCode, the editor I am using to write this is also using Electron. These are just a few examples but there are more.
 	- So now, Javascript is being used to develop applications, not just add annoying pop ups and adverts to your web pages. Those applications are not just in the browser but also on the desktop and on the server.
-	- There are few languages that can boast this cross platform coverage. 
+	- There are few languages that can boast this cross platform coverage.
 	- When your writing in a language and have to change to another one, just in order to write code for a different platform, you not only have to learn a new language. Lets suppose, as for myself, you already know those languages, you still have to switch in your mind from the one and to the other, which is a context switch. This is a cognitive load that you have to bear. Its not a big one but its still there.
-	- I used to liken interuptions in my work to being like interupts on the bus of the motherboard. If you have too many interupts, your whole system slows down. The same is true of your brain. If you have too many context switches, your brain slows down its ability to complete the task at hand as it becomes more busy dealing with these 'interupts' and switching context. 
+	- I used to liken interuptions in my work to being like interupts on the bus of the motherboard. If you have too many interupts, your whole system slows down. The same is true of your brain. If you have too many context switches, your brain slows down its ability to complete the task at hand as it becomes more busy dealing with these 'interupts' and switching context.
 	- When I'm trying to be as productive as I can, I need to choose the least complex path to my goal. If I can write in a language that can run on all the platforms I need to target, I can reduce the number of context switches I need to make and therefore be more productive.
 	- So it may well be 'better' to write in languages that others favour and for those that some think are 'cool' but if your interested in getting the job done, sometimes you have to put aside your own personal preferences and go with what works.
 	- Companies often think this way, as they should and they are going to hire people that use the technology that is used in their company. If you want to work for them, you need to use the technology they use. If you want to work for yourself, you need to use the technology that is most widely used. So learning a language that interests you but does not fit a need could be a big waste of your time, aside of learning to program.
 	- Javascript has though a very bad reputation amongst programmers and developers. Its not a very nice language to write in. It has a lot of quirks and was not very well designed. The story goes that Javascript was designed in a few days an in order to hit a deadline. How it became used in Netscape and eventually in other browsers is in my view a commedy of errors. Before anyone had chance to notice, it was too late and it was everywhere.
-	- The languages itself has been developed and over the years it has gained things that the purists and professional programmers amongst us would like to see in a language. It has become a lot better. It has also become a lot more complex. 
-	- As Google were making their office software work in the browser, so too Microsft had to do the same, or face extintion. After their bully tactics of the Bulmer years the boot was on the other foot and the market came back to bite them. 
+	- The languages itself has been developed and over the years it has gained things that the purists and professional programmers amongst us would like to see in a language. It has become a lot better. It has also become a lot more complex.
+	- As Google were making their office software work in the browser, so too Microsft had to do the same, or face extintion. After their bully tactics of the Bulmer years the boot was on the other foot and the market came back to bite them.
 	- Microsofts had to try and get their office software work in the web. Javascript was the only way they could reasonably achieve this, so they had to get what was a vast estate of C++ application code to work in the browser.
 	- Cutting a long story short, Microsft created Typescript. This is a superset of Javascript that adds types to the language. They used Typescript to even extend Javascript to have things like classes and annotations, that were not in the original language.
 	- Microsoft, to everyones surprise open sourced their work and collaborated with those involved in the Javascript standards and other to work with them on the language, incorporating things that were in Typescript into the language itself. So the typescript transpiler is now more efficient, as it can use the native language features, stripping out its types in order to trinspile to Javascript.
-	- Typescript is described as being a superset of Javascript. But the way I try to visualise it is that Typescript is Javascript with types. Its not a subset, its a superset. You can write Javascript in Typescript and it will work. 
+	- Typescript is described as being a superset of Javascript. But the way I try to visualise it is that Typescript is Javascript with types. Its not a subset, its a superset. You can write Javascript in Typescript and it will work.
 	- When I started programming a lot, it was in languages like Perl that were loosely typed, the idea for me was it gave greater freedom to code more naturally, without having to worry about types. I could write code that was more like a story, more like a natural language. I think one day we may returtn to this as AI becomes more a part of development environments. New langauges may emerge that handle all of the complexity of needing predefined objects, classes and types. But we are not there yet, so we have to use what we have. I started to use Go as it became open sourced by Google and as it became popular. I found once I'd got over needing to define types, my productiviy grew as run time errors were vastly reduced. So time to code in an IDE with type checking in line in the editting experience gave me confidence that as I saved and ran my code, it would work. I could then focus on the logic of the code and not worry about the types. More time in codeing up front led to less or in some cases, no time solving runtime errors.
 	- So for Javascript, in my mind, Typescript is the way to go. Its not pretty and we have to get over that. There are still codebases that are written in Javascript and may not yet have Typescript libraries added to them and you may still have to create your own. But this is going to be an ever decreasing problem as Typescript has become so pervasive. I still think its just plain wrong to write in Typescript to have to then transpile to what will actually run in the browser, just so you can 'fix' Javascript. It smacks of being a bolt on fix to a problem that should have been fixed in the language itself. But we are where we are and we have to deal with it.
-	- Heres the rub though, most of the big brains in teaching that I know will say that if your to learn Typescript, you need to know Javascript first. So what we have in all this is a big speed bump for most to deal with. You have to learn Javascript first, then learn Typescript. This can prove daunting. 
+	- Heres the rub though, most of the big brains in teaching that I know will say that if your to learn Typescript, you need to know Javascript first. So what we have in all this is a big speed bump for most to deal with. You have to learn Javascript first, then learn Typescript. This can prove daunting.
 	- However, froma personal and developmental point of view, being able to use more than one language makes you a better thinker and a better programmer. Whilst being coerced into the situation of having to do this for Javascript and Typescript, it is something that can be turned into a positive. As Typescript is basically Javascript with bits added, its not as bad as it could be if you are trying to learn say, Javascript and Go at the same time.
-	- Ironically to me as a person starting out years back as a systems programmer, I find myself starting up projects in JavaScript and with Typescript to process text and build software. These are allthings I would have done off the top of my head in something like Perl or Python, Bash even Go. 
+	- Ironically to me as a person starting out years back as a systems programmer, I find myself starting up projects in JavaScript and with Typescript to process text and build software. These are allthings I would have done off the top of my head in something like Perl or Python, Bash even Go.
 	- Javascript at its core is event driven in its design. It started life in the browser, so writing code in Javscript if your thinking in the way you would in a bash script where things happen sequentially, is not going to work. You have to think in terms of events and callbacks. It can also result in 'callback hell' if you dont use modern Javascript to help you with things like promises and async/await. You need to adopt a different way of thinking and in some cases adopt new patterns of coding like await all
 	- The async await all pattern is a way of writing asynchronous code in JavaScript that uses the async and await keywords to handle multiple promises in parallel. It is similar to the Promise.all method, but with a more concise and readable syntax.
-
 	- The basic idea of the async await all pattern is to use an async function that awaits an array of promises, and then returns the results of those promises as an array. For example, suppose we have three promises that fetch some data from different sources:
-
-	```javascript
-		let promise1 = fetch('/data1.json');
-		let promise2 = fetch('/data2.json');
-		let promise3 = fetch('/data3.json');
-	```
-
+	  
+	  ```javascript
+	  let promise1 = fetch('/data1.json');
+	  let promise2 = fetch('/data2.json');
+	  let promise3 = fetch('/data3.json');
+	  ```
 	- We can use the async await all pattern to wait for all of them to finish and get their results:
-
-	```javascript
-		async function getData() {
-		  let [data1, data2, data3] = await Promise.all([promise1, promise2, promise3]);
-		  // do something with data1, data2, and data3
-		}
-	```
-
+	  
+	  ```javascript
+	  async function getData() {
+	   let [data1, data2, data3] = await Promise.all([promise1, promise2, promise3]);
+	   // do something with data1, data2, and data3
+	  }
+	  ```
 	- The async function getData() returns a promise that resolves to the array of data. We can use the await keyword to get the data inside another async function, or use the then method to handle the promise.
-
 	- The async await all pattern has some advantages over the Promise.all method:
 		- It allows us to use the await keyword to wait for all the promises to resolve, instead of using the then method of the promise.
 		- It avoids nesting and chaining of then and catch callbacks, which can make the code hard to read and maintain.
 		- It allows us to use the try/catch blocks to handle errors in a familiar way, instead of using the catch method of the promise.
 		- It makes the code look more synchronous and linear, which can improve readability and understanding.
-
 	- However, the async await all pattern also has some limitations:
-
 		- It only works inside async functions, which means we need to use the async keyword before the function declaration or expression.
 		- It requires the support of the async and await keywords, which are not available in older browsers or environments. We may need to use a transpiler like Babel to convert the code to ES5 syntax.
 		- It may not be optimal for performance or memory usage, as it waits for all the promises to resolve before returning the results. If we don't need all the results at once, we may prefer to use the Promise.allSettled method, which returns the status and value of each promise as soon as it settles, regardless of whether it is fulfilled or rejected.
-
-		For more information and examples of the async await all pattern, you can refer to the following web pages:
-
+		  
+		  For more information and examples of the async await all pattern, you can refer to the following web pages:
 		- [Explain Promise.all with async-await in JavaScript](^1^)
 		- [Async/await - The Modern JavaScript Tutorial](^2^)
 		- [async function - JavaScript | MDN](^3^)
-
-		Source: Conversation with Bing, 14/11/2023
-		(1) Explain Promise.all with async-await in JavaScript. https://www.geeksforgeeks.org/explain-promise-all-with-async-await-in-javascript/.
-		(2) Async/await - The Modern JavaScript Tutorial. https://javascript.info/async-await.
-		(3) async function - JavaScript | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function.
-		(4) undefined. https://api.github.com/users/.
+		  
+		  Source: Conversation with Bing, 14/11/2023
+		  (1) Explain Promise.all with async-await in JavaScript. https://www.geeksforgeeks.org/explain-promise-all-with-async-await-in-javascript/.
+		  (2) Async/await - The Modern JavaScript Tutorial. https://javascript.info/async-await.
+		  (3) async function - JavaScript | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function.
+		  (4) undefined. https://api.github.com/users/.
+-
