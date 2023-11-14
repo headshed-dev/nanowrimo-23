@@ -54,3 +54,49 @@
 	- So for Javascript, in my mind, Typescript is the way to go. Its not pretty and we have to get over that. There are still codebases that are written in Javascript and may not yet have Typescript libraries added to them and you may still have to create your own. But this is going to be an ever decreasing problem as Typescript has become so pervasive. I still think its just plain wrong to write in Typescript to have to then transpile to what will actually run in the browser, just so you can 'fix' Javascript. It smacks of being a bolt on fix to a problem that should have been fixed in the language itself. But we are where we are and we have to deal with it.
 	- Heres the rub though, most of the big brains in teaching that I know will say that if your to learn Typescript, you need to know Javascript first. So what we have in all this is a big speed bump for most to deal with. You have to learn Javascript first, then learn Typescript. This can prove daunting. 
 	- However, froma personal and developmental point of view, being able to use more than one language makes you a better thinker and a better programmer. Whilst being coerced into the situation of having to do this for Javascript and Typescript, it is something that can be turned into a positive. As Typescript is basically Javascript with bits added, its not as bad as it could be if you are trying to learn say, Javascript and Go at the same time.
+	- Ironically to me as a person starting out years back as a systems programmer, I find myself starting up projects in JavaScript and with Typescript to process text and build software. These are allthings I would have done off the top of my head in something like Perl or Python, Bash even Go. 
+	- Javascript at its core is event driven in its design. It started life in the browser, so writing code in Javscript if your thinking in the way you would in a bash script where things happen sequentially, is not going to work. You have to think in terms of events and callbacks. It can also result in 'callback hell' if you dont use modern Javascript to help you with things like promises and async/await. You need to adopt a different way of thinking and in some cases adopt new patterns of coding like await all
+	- The async await all pattern is a way of writing asynchronous code in JavaScript that uses the async and await keywords to handle multiple promises in parallel. It is similar to the Promise.all method, but with a more concise and readable syntax.
+
+	- The basic idea of the async await all pattern is to use an async function that awaits an array of promises, and then returns the results of those promises as an array. For example, suppose we have three promises that fetch some data from different sources:
+
+	```javascript
+		let promise1 = fetch('/data1.json');
+		let promise2 = fetch('/data2.json');
+		let promise3 = fetch('/data3.json');
+	```
+
+	- We can use the async await all pattern to wait for all of them to finish and get their results:
+
+	```javascript
+		async function getData() {
+		  let [data1, data2, data3] = await Promise.all([promise1, promise2, promise3]);
+		  // do something with data1, data2, and data3
+		}
+	```
+
+	- The async function getData() returns a promise that resolves to the array of data. We can use the await keyword to get the data inside another async function, or use the then method to handle the promise.
+
+	- The async await all pattern has some advantages over the Promise.all method:
+		- It allows us to use the await keyword to wait for all the promises to resolve, instead of using the then method of the promise.
+		- It avoids nesting and chaining of then and catch callbacks, which can make the code hard to read and maintain.
+		- It allows us to use the try/catch blocks to handle errors in a familiar way, instead of using the catch method of the promise.
+		- It makes the code look more synchronous and linear, which can improve readability and understanding.
+
+	- However, the async await all pattern also has some limitations:
+
+		- It only works inside async functions, which means we need to use the async keyword before the function declaration or expression.
+		- It requires the support of the async and await keywords, which are not available in older browsers or environments. We may need to use a transpiler like Babel to convert the code to ES5 syntax.
+		- It may not be optimal for performance or memory usage, as it waits for all the promises to resolve before returning the results. If we don't need all the results at once, we may prefer to use the Promise.allSettled method, which returns the status and value of each promise as soon as it settles, regardless of whether it is fulfilled or rejected.
+
+		For more information and examples of the async await all pattern, you can refer to the following web pages:
+
+		- [Explain Promise.all with async-await in JavaScript](^1^)
+		- [Async/await - The Modern JavaScript Tutorial](^2^)
+		- [async function - JavaScript | MDN](^3^)
+
+		Source: Conversation with Bing, 14/11/2023
+		(1) Explain Promise.all with async-await in JavaScript. https://www.geeksforgeeks.org/explain-promise-all-with-async-await-in-javascript/.
+		(2) Async/await - The Modern JavaScript Tutorial. https://javascript.info/async-await.
+		(3) async function - JavaScript | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function.
+		(4) undefined. https://api.github.com/users/.
