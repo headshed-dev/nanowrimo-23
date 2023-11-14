@@ -164,3 +164,4 @@
 	```
 	- Descriptive error messages: Interfaces tend to produce more descriptive error messages compared to type aliases.
 	- In general, if you want to create a shape for an object-like structures, interfaces are a good choice. If you need to use more complex types or primitives, type aliases are the way to go.
+	- type guards are a bit mad. You can use things like 'typeof' say in a function to check to see what the type of primitive you have passed and react accordingly, so if you have an id of mixed type using a union, you can then use programatic type guards to process this in a type safe way. If you dont, typescript will throw a wobbler. If your doing this with interfaces, it get even weirder, you need to define a 'type' attribute in your inteface which you can the access as 'type' in your function to do similar guards. At the moment, I cant see a useful use case for this, so will need to revisit this as this becomes more clear.
