@@ -28,6 +28,44 @@
 		- declaring an object is straightforward
 			- for example `const x: {name: string, age: number} = {name: 'john', age: 30}`
 		- and so forth, but inference can be used if this makes things too verbose however, by declaring types in this manner can serve to document the code
+	- type aliases can be used to make things more readable
+		- for example `type MyType = {name: string, age: number}`
+		- this can be used to make things more readable
+		- for example `const x: MyType = {name: 'john', age: 30}`
+		```javascript
+			type Rgb = [number, number, number]
+
+			function getRandomColor(): Rgb {
+				let r = Math.floor(Math.random() * 255)
+				let g = Math.floor(Math.random() * 255)
+				let b = Math.floor(Math.random() * 255)
+
+				return [r, g, b]
+			}
+
+			const color1: Rgb = getRandomColor()
+			const color2: Rgb = getRandomColor()
+			const color3: Rgb = getRandomColor()
+
+			console.log(color1, color2, color3)
+
+			// this looks like an interace but we have an = sign 
+			// as this is a type alias
+			type myUser = { name: string, age: number, email: string }
+
+			const user1: myUser = {
+				name: 'John',
+				age: 30,
+				email: 'jon@mail.com',
+			}
+
+			function formatUser(user: myUser) {
+				return `>>> ${user.name} ${user.age} ${user.email}`
+			}
+
+			console.log(formatUser(user1))
+		
+		```
 	- inerfaces in typescript are where things get a bit more interesting, allowing us to structure objects in a predictable way and enforcing the schema if you would of objects and objects that use other objects, for example, here is an example of an author object, used with a posts object that uses the author and a function that processes all of this
 	- ```typescript
 		interface Author {
@@ -82,3 +120,47 @@
 	
 	```
 	- this is very nice
+	- interfaces can do a lot more than say, types but it could be easy to think of them both as the same thing
+	- TypeScript's interfaces and type aliases do have overlapping capabilities, but there are some differences:
+
+	- Extension: Interfaces can be extended and merged, which is not possible with type aliases. This makes interfaces a good choice when you want to define a shape of an object and extend it later.
+
+	```javascript
+		interface Base {
+		id: number;
+		}
+
+		interface Derived extends Base {
+		name: string;
+		}
+	```
+
+	which can't be done with a type alias
+	- Declaration merging: Interfaces can be declared multiple times and they will be merged together. This is not possible with type aliases.
+
+	```typescript
+			interface SomeInterface {
+			id: number;
+			}
+
+			interface SomeInterface {
+			name: string; // This is okay
+			}
+
+			type SomeType = {
+			id: number;
+			};
+
+			type SomeType = {
+			name: string; // This will throw an error
+			};
+
+	```
+	- Use with primitives and unions: Type aliases can represent primitive types, union types, intersection types, tuples, and other complex types, which is not possible with interfaces.
+	```typescript
+	type PrimitiveType = string;
+	type UnionType = string | number;
+	type TupleType = [string, number];
+	```
+	- Descriptive error messages: Interfaces tend to produce more descriptive error messages compared to type aliases.
+	- In general, if you want to create a shape for an object-like structures, interfaces are a good choice. If you need to use more complex types or primitives, type aliases are the way to go.
