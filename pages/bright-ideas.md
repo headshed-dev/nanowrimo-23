@@ -11,4 +11,5 @@
 	- making sense of all of this, the technology that went before and where it has brought us to, where we go to from here are keys to success or failure, where failure is to turn off and not engage with the new ways of working and thinking. Success is to embrace the new ways of working and thinking and to be a part of the new wave and to be a part of the paradigm shift.
 	- this, this is my niche, this is my voice, this is my new wave and this is my paradigm shift.
 - {{renderer :wordcount_}}
-	- here
+	- so these are not the voyages of the starship enterprise, to seek out new life and civilisations and new worlds, but they are the voyages of a hybrid technologist, to seek out new ways of working and thinking, to seek out new ways of doing things and to seek out new ways of being. To boldly go where no one has likely gone before, many may have but to try at least to do it in a new way, to do it in a better way and to do it in a way that is going to be of benefit to others and to myself.
+	- my niche then is to be a hybrid technologist, to be a writer, to be a content creator, to be a business practitioner, to be an entrepeneur, to be a researcher, to be a learner, to be a teacher, to be a student, to be a mentor, to be a mentee, to be a leader, to be a follower, to be a friend, to be a colleague, to be a partner
