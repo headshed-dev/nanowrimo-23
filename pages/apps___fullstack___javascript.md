@@ -19,5 +19,7 @@
 	- Forgetting the geopolitics and social greasy poles, if you can choose a programming language that can be used to write a piece of software that can run on all of these systems, you have a single language that can run on all these systems. You have a universal language that can be used to run anything, anywhere.
 	- Surely then, Java would do this.
 		- Funny that, but it seems that in the browser at least, you need do do a lot of difficult and unpleasant things for the average user to get Java to run in the browser. Most devices uses browsers, despite ChromeOS being so low in our charts, the browser is still how most humans are consistently able to access the internet
+- {{renderer :wordcount_}}
+	- here
 -
 -
