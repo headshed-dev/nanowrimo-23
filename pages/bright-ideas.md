@@ -10,3 +10,5 @@
 	- AI, LLMs and machine learning is becoming a part of daily life and the tools and adoption of these are happeing at a blindingly fast pace, so I'm starting to write my own applications that use these large language models and how we write these is news to all of us, as they didnt exist generally untill a year ago. We have new ways to think about writing software and new ways to think about working
 	- making sense of all of this, the technology that went before and where it has brought us to, where we go to from here are keys to success or failure, where failure is to turn off and not engage with the new ways of working and thinking. Success is to embrace the new ways of working and thinking and to be a part of the new wave and to be a part of the paradigm shift.
 	- this, this is my niche, this is my voice, this is my new wave and this is my paradigm shift.
+- {{renderer :wordcount_}}
+	- here
