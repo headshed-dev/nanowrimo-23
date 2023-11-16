@@ -5,5 +5,5 @@
 	- however junior programmers will be incumbent to these inaccuracies and could not only be impeded but could also introduce instabilities to code bases by cutting an pasting bad code, but this has been goin on since the dawn of the search engine and stack overflow, it will just happen more often and at a greater rate
 	- learning is already enhanced so long as you are using an LLM that is trained in the language(s) you are writing in,
 		- so pick a popular one, that a lot of people currently write in and you will reap the rewards
-		- pick a less used one and be ready for peril
+		- pick a less used one and be ready for peril, as the one thing AIs are currently not good at is saying when they dont really know the answer to something and there is a tendency for them to spew bilge rather than say, 'I can't do that right now Dave' - you would think that
 -
