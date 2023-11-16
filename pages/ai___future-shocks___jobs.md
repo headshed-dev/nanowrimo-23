@@ -1,0 +1,2 @@
+- use this section to cover what we think about jobs and if they will be more or less with AI
+	- for the most part, this is masked currently post covid by over recruiting in the pande
