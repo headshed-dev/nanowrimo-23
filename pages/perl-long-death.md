@@ -29,4 +29,5 @@
 	- Increasingly, our activities on line are going to be augmented by AI. Even the creation of images and video is now being done by AI. Any kind of content creation is going to be augmented by AI if not entirely created by it whilst being prompted by a human. And this I think is the future of programming.
 	- We will not be able to use just one language and will use, as I am already becoming fluent in, AI co-pilot technologies to code with us and for us.
 	- The expansion of languages over the last 20 years has meant there is no clear path to be a programmer for everthing. Whichever platform you choose
-- word
+- {{renderer :wordcount_}}
+	- here
