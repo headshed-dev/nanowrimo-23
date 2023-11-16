@@ -32,3 +32,7 @@
 - {{renderer :wordcount_}}
 	- https://www.perl.com/ - latest article is march 29, 2022 nearly 2 years ago
 	- https://the-perl-store.creator-spring.com/ perl merch that now has a picture of a dinasaur in it
+	- ![image.png](../assets/image_1700137737510_0.png)
+		- says it all really, even if its a raptor
+		-
+-
