@@ -30,4 +30,4 @@
 	- We will not be able to use just one language and will use, as I am already becoming fluent in, AI co-pilot technologies to code with us and for us.
 	- The expansion of languages over the last 20 years has meant there is no clear path to be a programmer for everthing. Whichever platform you choose
 - {{renderer :wordcount_}}
-	- https://www.perl.com/ - latest article is march
+	- https://www.perl.com/ - latest article is march 29, 2022 nearly 2 years ago
