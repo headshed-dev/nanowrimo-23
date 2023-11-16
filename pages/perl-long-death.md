@@ -31,3 +31,4 @@
 	- The expansion of languages over the last 20 years has meant there is no clear path to be a programmer for everthing. Whichever platform you choose
 - {{renderer :wordcount_}}
 	- https://www.perl.com/ - latest article is march 29, 2022 nearly 2 years ago
+	- https://the-perl-store.creator-spring.com/ perl merch that now has a picture of a dinasaur in it
