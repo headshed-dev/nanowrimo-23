@@ -41,4 +41,6 @@
 		- Frameworks and software was no longer being written in Perl, it was being written in Ruby, Python and Go, C#, Java, Kotlin, Swift, Javascript and Typescript, Rust, C++ and C and the list goes on.
 		- Perl was no longer being taught in universities, it was being replaced by Python and Javascript, Java and anything but Perl. In schools I dont think Perl was ever taught, it was always Python and Java.
 		- Perl was not being used in the new technologies that were emerging, it was being replaced by existing languages and new ones.
-		- post mortem
+		- post mortem, what could have been done but wasnt
+			- mod_perl did at a time rock and would have found its place alongside other SSR technolgies and function like services now but it has withered on the vine
+			-
