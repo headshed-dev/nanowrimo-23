@@ -35,4 +35,5 @@
 	- ![image.png](../assets/image_1700137737510_0.png)
 		- says it all really, even if its a raptor
 		-
--
+	- the demise of a language is not just as simple as saying, no one likes or wants to write in it any more, it is caused by many thing
+		- when puppet was first wr
