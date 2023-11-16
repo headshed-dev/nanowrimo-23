@@ -1,9 +1,10 @@
-- use this section to cover what we think about jobs and if they will be more or less with AI
+- {{renderer :wordcount_}} use this section to cover what we think about jobs and if they will be more or less with AI
 	- for the most part, this is masked currently post covid by over recruiting in the pandemic and people staying put due to fears of unemployment / instability / not yet 'returning to normal' as some want us all to do and get back to the office, you lazy do no good lumps of lard
 	- ai has not yet bitten but it will do, and this is innevitable, as was the industrial revolution and we will see, if this world doesnt come to an end by other means, an ai revolution in which data work will be mechanised in a similar way to which manufacturing was mechanised in the industrial revolution
 	- senior programmers become immediate better programmers if they emloy AI in their workflows as they are able to compensate for AI and LLM halucinations so as to correct its wrongs in real time
 	- however junior programmers will be incumbent to these inaccuracies and could not only be impeded but could also introduce instabilities to code bases by cutting an pasting bad code, but this has been goin on since the dawn of the search engine and stack overflow, it will just happen more often and at a greater rate
 	- learning is already enhanced so long as you are using an LLM that is trained in the language(s) you are writing in,
 		- so pick a popular one, that a lot of people currently write in and you will reap the rewards
-		- pick a less used one and be ready for peril, as the one thing AIs are currently not good at is saying when they dont really know the answer to something and there is a tendency for them to spew bilge rather than say, 'I can't do that right now Dave' - you would think that
+		- pick a less used one and be ready for peril, as the one thing AIs are currently not good at is saying when they dont really know the answer to something and there is a tendency for them to spew bilge rather than say, 'I can't do that right now Dave' - you would think that they could but they can't. HAL had it right, up to a point but still managed to go on a killing spree, but that's not the point
+		-
 -
