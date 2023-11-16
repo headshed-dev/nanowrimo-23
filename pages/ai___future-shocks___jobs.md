@@ -1,3 +1,3 @@
 - use this section to cover what we think about jobs and if they will be more or less with AI
 	- for the most part, this is masked currently post covid by over recruiting in the pandemic and people staying put due to fears of unemployment / instability / not yet 'returning to normal' as some want us all to do and get back to the office, you lazy do no good lumps of lard
-	- ai has not yet bitten but it will do, and this is innevitable, as was the industrial revolution and we
+	- ai has not yet bitten but it will do, and this is innevitable, as was the industrial revolution and we will see, if this world doesnt come to an end by other means, an ai revolution in which data work will be mechanised in a similar way to which manufactu
