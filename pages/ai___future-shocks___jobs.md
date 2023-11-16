@@ -6,5 +6,9 @@
 	- learning is already enhanced so long as you are using an LLM that is trained in the language(s) you are writing in,
 		- so pick a popular one, that a lot of people currently write in and you will reap the rewards
 		- pick a less used one and be ready for peril, as the one thing AIs are currently not good at is saying when they dont really know the answer to something and there is a tendency for them to spew bilge rather than say, 'I can't do that right now Dave' - you would think that they could but they can't. HAL had it right, up to a point but still managed to go on a killing spree, but that's not the point
-		-
+	- this is a comment to a video I came accross on ruby on rails of all things !
+		- very interesting and well made comments. I agree, there is far too much hype on the rate at which AI and LLMs are going to have an effect on real jobs but change is none the less inevitable, as you well say. On learning and ongoing personal development I agree, we never stop learning but that caution is required and you should not stop reading the docs any time soon. I've found that if using chat-gpt, copilot etc to learn more about coding that I have needed to
+		   * pick popular languages, that a lot of people currently write in and you will reap the rewards as LLMs will have been trained in these mainstream ones
+		  * pick less used languages and be ready for peril, as these are less likely to be well covered by LLMs and the one thing AIs are currently not good at is saying when they don't really know the answer to something and have a tendency to spew bilge or 'hallucinate' rather than say, 'I can't do that right now Dave' - you would think that they could but they can't. HAL had it right, up to a point but went very badly wrong in other areas which thankfully is still in the realm of sci-fi
+			- {{video https://www.youtube.com/watch?v=U8C1eVVnVIw}}
 -
