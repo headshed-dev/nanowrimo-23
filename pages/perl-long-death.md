@@ -44,4 +44,4 @@
 		- post mortem, what could have been done but wasnt
 			- mod_perl did at a time rock and would have found its place alongside other SSR technolgies and function like services now but it has withered on the vine
 			- types could have been introduced into perl if its core were not spagetti code bent on natural language features rather than strictures as in Python, Python's ability to embrace type-hints has in my view been its saviour and Typescript has added to this as a valid apporach, Perl could have been similar, say having a types checker, like its famous 'strict mode' or 'safe checking' there were lots of green shoots but all of them have rotted on the plant
-			- the in-fights and toxic behaviour
+			- the in-fights and toxic behaviour led to many just backing out and going elsewhere. I suppose I was one of them as I did not find (some) company welcoming, being quite egosytical and their move to being
