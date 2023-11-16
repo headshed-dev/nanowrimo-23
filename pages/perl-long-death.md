@@ -1,2 +1,3 @@
 - {{renderer :wordcount_}}
-	- to think how long I spent learning this language and to look back now and see its
+	- to think how long I spent learning this language and to look back now and see its long, slow descent into obsolelence.
+	-
