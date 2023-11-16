@@ -43,4 +43,4 @@
 		- Perl was not being used in the new technologies that were emerging, it was being replaced by existing languages and new ones.
 		- post mortem, what could have been done but wasnt
 			- mod_perl did at a time rock and would have found its place alongside other SSR technolgies and function like services now but it has withered on the vine
-			- types could have been introduced into perl if its core were not spagetti code bent on natural language features rather than strictures as in Python, Python's ability to embrace type-hints has
+			- types could have been introduced into perl if its core were not spagetti code bent on natural language features rather than strictures as in Python, Python's ability to embrace type-hints has in my view been its saviour and Typescript has added to this as a valid apporach, Perl could have been similar, say having a types checker, like its famous 'strict mode' or 's
