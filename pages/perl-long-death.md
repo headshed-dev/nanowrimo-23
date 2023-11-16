@@ -1,3 +1,18 @@
 - {{renderer :wordcount_}}
 	- to think how long I spent learning this language and to look back now and see its long, slow descent into obsolelence.
-	-
+	  - as with all things that to be kicked, reddit is the place to go to find out why, as the founding members of a thing are not going to say 'your right lads, we were wrong', 
+	  	- https://www.reddit.com/r/perl/comments/v2dwn7/why_is_perl_perceived_as_old_and_obsolete_and/
+	- the points here made are for the most part valid I would say
+	- I write this with sense of sadness, which I am surprised at as my departure from the world of Perl was born out of frustration at the language and its community that had promissed a new version 6 that over years never happened and it was too late when everyone realised that it was never going to happen. 
+	- I still recieve updates from perl maven, out of interest to see if things are still going. They seem to be and if I look at cpan as searchable by [metacpan for a recent upload](https://metacpan.org/release/MBARBON/Google-ProtocolBuffers-Dynamic-0.42_04) of a Google Protocol Buffer module, I see that the last updated in the last 24 hours.
+	- so people are still actively working on modules at least that use Perl. But of the organisations I was associated with up to [YAPC 2006](http://www.yapceurope.org/2006/user/item/1.html) I see little activity on line for any of them.
+	- it was at this point and by 2006 I had left the country to work over seas and would have sought to emigrate elsewhere if it had not been for the health of my family on my wife's side. But for that, we would have left the UK to look for a life in Canada or Australia.
+	- Our return was to be closer to family and for us to be closer to our parents as they aged. 
+	- They have died now and we are left with the legacy of their lives and the memories of them.
+	- We decided to stay in the UK and I have been working in the UK since our return a few years after YAPC 2006.
+	- I continued to use Perl as I knew it so well, I could write Perl code almost without thinking and approaching the speed at which I write English. So it was not going to be something I would abandon straight away, even though it seemed to me by 2010 at the latest, that Perl was in severe decline.
+	- A previous YAPC had led us to beleive that the language was in crisis when Perl6, which was much talked about at that time and in particular at YAPC's just never happened. 
+	- A project called Rakudo was started and it was to be the new Perl6. Hovever uptake for this was slow and it never seemed to get much attention. It is based on [Raku](https://raku.org/) which is a language. Again, I've never seen any real interest in this on line, in videos etc and have had to conclude that it has not been a success. There are organistions that use it, but its pretty plain to see that these are none of them FANGS or any of the other big tech companies.
+	- Python has as far as I can see, surplanted Perl almost completely now in what was once the sysadmin space and now the Devops / SRE movemenets.
+	- I think this would have been given a big push by Google backing Python, whilst they have never backed Perl. Also in education Python has been used to teach programming to children and this has been a big success, encouraged further by the Raspberry Pi foundation and their use of Python in their educational materials.
+	
