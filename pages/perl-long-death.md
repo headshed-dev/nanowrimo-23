@@ -36,4 +36,8 @@
 		- says it all really, even if its a raptor
 		-
 	- the demise of a language is not just as simple as saying, no one likes or wants to write in it any more, it is caused by many thing
-		- when puppet was first written in Perl, its aut
+		- when puppet was first written in Perl, its auhor used Perl but out of frustration with the language, he wrote subsequent versions of puppet in Ruby. This was quite a while now but the Perl community could see this back then and could have reacted to it but did not. 
+		- There was too much time spent on Perl6 and for a time, Perl5 was not being developed. This was a mistake as it allowed other languages to take over the space that Perl had occupied and when Perl6 was finally released, not as Perl6 but as an entirely new language, Raku, it was too late. The world had moved on.
+		- Frameworks and software was no longer being written in Perl, it was being written in Ruby, Python and Go, C#, Java, Kotlin, Swift, Javascript and Typescript, Rust, C++ and C and the list goes on.
+		- Perl was no longer being taught in universities, it was being replaced by Python and Javascript, Java and anything but Perl. In schools I dont think Perl was ever taught, it was always Python and Java. 
+		- Perl was not being used in the new technologies that were emerging, it was being replaced by existing languages and new ones.
