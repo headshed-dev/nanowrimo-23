@@ -1,2 +1,2 @@
 - today I watche a video from a guy talking about olama running on a mac with only 8gig of memory, shocking, I know
-	- but this goes to show, even poor mac users can get in on the ai train, but anywho,
+	- but this goes to show, even poor mac users can get in on the ai train, but anywho, here is little old me running on a few systems just now, wondering if he can do that, can I on a WSL 2 system oldish laptop. I know I'm already able to do this on a relatively
