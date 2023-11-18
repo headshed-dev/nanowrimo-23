@@ -19,4 +19,5 @@
 	  >>> Install complete. Run "ollama" from the command line.
 	  WARNING: No NVIDIA GPU detected. Ollama will run in CPU-only mode.
 	  ```
-	- bah, hoo, apparently not, lest with
+	- bah, hoo, apparently not, lest with less processy powery, not going to go go I think, revert to the Lenovo / something with an Nvidia card :(
+	-
