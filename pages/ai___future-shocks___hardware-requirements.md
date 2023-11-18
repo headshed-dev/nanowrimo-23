@@ -1,2 +1,22 @@
 - today I watche a video from a guy talking about olama running on a mac with only 8gig of memory, shocking, I know
-	- but this goes to show, even poor mac users can get in on the ai train, but anywho, here is little old me running on a few systems just now, wondering if he can do that, can I on a WSL 2 system oldish laptop. I know I'm already able to do this on a relatively new
+	- but this goes to show, even poor mac users can get in on the ai train, but anywho, here is little old me running on a few systems just now, wondering if he can do that, can I on a WSL 2 system oldish laptop. I know I'm already able to do this on a relatively new Lenovo with an Nvidia gpu but can I run it on the other ...
+	- ```bash
+	  curl https://ollama.ai/install.sh | sh
+	    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+	                                   Dload  Upload   Total   Spent    Left  Speed
+	  100  7883    0  7883    0     0   9383      0 --:--:-- --:--:-- --:--:--  9384
+	  >>> Downloading ollama...
+	  ######################################################################## 100.0%##O=#  #
+	  ######################################################################## 100.0%
+	  >>> Installing ollama to /usr/local/bin...
+	  [sudo] password for jon:
+	  >>> Creating ollama user...
+	  >>> Adding current user to ollama group...
+	  >>> Creating ollama systemd service...
+	  >>> Enabling and starting ollama service...
+	  Created symlink /etc/systemd/system/default.target.wants/ollama.service → /etc/systemd/system/ollama.service.
+	  >>> The Ollama API is now available at 0.0.0.0:11434.
+	  >>> Install complete. Run "ollama" from the command line.
+	  WARNING: No NVIDIA GPU detected. Ollama will run in CPU-only mode.
+	  ```
+	- bah, hoo, apparently not, lest with
