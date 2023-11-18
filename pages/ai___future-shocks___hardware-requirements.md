@@ -1,1 +1,2 @@
-- today I
+- today I watche a video from a guy talking about olama running on a mac with only 8gig of memory, shocking, I know
+	- but this goes to show, even poor mac users can get in on the ai train, but anywho,
