@@ -23,4 +23,6 @@
 	- XML became the standard for data interchange and was used in many places, including the web and in particular by AJAX ( Asynchronous JavaScript and XML ) 
 	- To parse data in XML and even HTML using regular expressions is possible but not in my view a good idea. It would be something I might have done 'in a push' to get something done but not a solution I would want to return to having slept and fogotten why I did it the day previouse. 
 	- as time and approaches to encoding data have moved on, so have the tools we use to work with them and even Perl has many modules that can be used to parse XML and HTML and the accpted wisdom was to use these rather than regular expressions for such stucutred data.
-	
+	- {{renderer :wordcount_}}
+		- here comparing this to json seriaizer in dart and the use of regular expressions to parse json in dart bings things up to date.
+	  
