@@ -26,4 +26,4 @@
 	- {{renderer :wordcount_}}
 		- here comparing this to json seriaizer in dart and the use of regular expressions to parse json in dart bings things up to date.
 		- also, what happened with ajax, that changed everything
-		- the way data is often modelled as lists of objects and how this has fed into no
+		- the way data is often modelled as lists of objects and how this has fed into noSQL document based databases
