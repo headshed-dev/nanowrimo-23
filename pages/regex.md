@@ -25,4 +25,5 @@
 	- as time and approaches to encoding data have moved on, so have the tools we use to work with them and even Perl has many modules that can be used to parse XML and HTML and the accpted wisdom was to use these rather than regular expressions for such stucutred data.
 	- {{renderer :wordcount_}}
 		- here comparing this to json seriaizer in dart and the use of regular expressions to parse json in dart bings things up to date.
-		- also, what happened with ajax, that chnged
+		- also, what happened with ajax, that changed everything
+		- the way data is often modelled as lists of objects and how this has fed into no
