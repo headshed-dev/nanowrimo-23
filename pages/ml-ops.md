@@ -16,5 +16,8 @@
 		- Pipelines hes shows using Github workflows, makefiles and .env files. Never store secrets into Git he says.
 		- Amen.
 		- I've had very difficult times with developers that refused to do anyhting other than store API keys into Git and for us not to fall out and to stay productive and work together 'nicely'. 
-		- Pau is in effect demonstrating a sort of 'test driven ML programming'. An LLM in this case 
+		- Pau is in effect demonstrating a sort of 'test driven ML programming'. An LLM in this case is being tuned to perform a specific task and to answere when promtped in a particular way. 
+		- If you are tuning an LLM for a demo then this isnt so much of a problem if the LLM goes off piste and gives a few wrong answers but as he points out and I hearily agree, for procution systems, this is a deal breaker. So to mitigate against this, the LLM needs to be tested with a variety of test cases and the results compared to the expected results.
+		- The process of testing, modifying or fixing and resubmitting with Pull Requests and approval process is all part of the Agile and CI/CD process, all of which is the devops way of working.
+		- So this is for me a top dollar find in the YouTube world and I will be following this guy and his work closely.
 -
