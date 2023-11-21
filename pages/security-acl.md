@@ -47,4 +47,7 @@
 	- The token is sent with every request to the server and the server uses the token to identify the user.
 	- A drawback of this is that the token is sent with every request to the server and this can be a security risk. If the token is intercepted, it can be used to impersonate the user. This is a risk that is mitigated by the use of HTTPS which encrypts the data in transit between the browser and the server.
 	- A common mistake also is to store the token in local storage in the browser. This is a security risk as the token can be intercepted by a malicious script running in the browser. The token should be stored in a cookie which is sent with every request to the server.
-	
+	- Another problem with JWT tokens is that even when secure cookie storage is used in the browser, the token is still held by the user untill it expires and in order for a compromised JWT token to be invalidated, the user must log out and log back in again. This is a problem that is mitigated by the use of short lived tokens and by the use of refresh tokens.
+	- In order to invalide a JWT token immediately, the servers key needs to be expired, invalidating all users and forcing all users to re-authenticate. This is a problem that is mitigated by the use of short lived keys and by the use of refresh tokens.
+	- Despite these short falls, JWT tokens are widely used and are a good solution to the problem of session management.
+	- The advantage of JWT tokens being that no central session store is required and this is a big advantage in a distributed system where there are many servers and many users.
