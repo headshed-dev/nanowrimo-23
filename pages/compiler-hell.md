@@ -31,4 +31,4 @@
 	- It may mean that you have to make compromises and choose less 'purist' technologies or approaches, but if it gets the job done and can be completed a lot more quickly.
 - {{renderer :wordcount_}}
 	- fear of errors being shown - can lead to not showing any at all, thus the white screen of death, or only showing a simple message like 'something has happened' one of my favorite windows messages or 'contact your systems administrator'
-	- error handling is a whole thing in coding, should you just throw an error or
+	- error handling is a whole thing in coding, should you just throw an error or try catch it, or return an error and test for it leading to constantly checking for errors, should you log it and
