@@ -32,3 +32,4 @@
 - {{renderer :wordcount_}}
 	- fear of errors being shown - can lead to not showing any at all, thus the white screen of death, or only showing a simple message like 'something has happened' one of my favorite windows messages or 'contact your systems administrator'
 	- error handling is a whole thing in coding, should you just throw an error or try catch it, or return an error and test for it leading to constantly checking for errors, should you log it and can you turn the logging down, or up, or off altogether and if so, is that a good thing. How many times can a thing fail and is it possible to retry later, can you cope with something not being there all the time, can it be there later ( even driven ) and can your app cope with this
+	- and another thing, if you come back to something in
