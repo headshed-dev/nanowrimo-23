@@ -1,2 +1,13 @@
 - {{renderer :wordcount_}}
-	- here
+	- a while back I was looking at things I could store ideas in, be it a database, notes, whatever
+	- the term 2nd brain had not come into my mind or vocabulary and I dont think it was a word bandied about on the interwebs, at least not as much as is has been of recent
+	- More accurate a term that represented what I was doing was 'journalling' but with a bit more than just writing a diary of events
+	- Everthing that is defined as 2nd brain, the abilty to store, find, retrieve, and use information, is what I was looking for.
+	- there seemed 2 main flows for this, text based, in the form of daily journal writing and database based, often using things like notion, or airtable. 
+	- I spent a bit of time with notion and tried to like it but I wanted more protection of my data, my inner most thougths and ideas. Where are they, if I give them over to a cloud provider like notion, what happens if they go bust, or get hacked, or just decide to change their terms and conditions. 
+	- Evernote is another like this. I remember warning a customer about using it some years ago, they didnt seem to be bothered by my concerns. Later, much was said in the press and on line about privacy, security of data, personal information in particular. Cambridge Analytica, Facebook, Google, all these companies have been in the news for all the wrong reasons after this and I suppose many were not aware of the implications of using these services, or just didnt care. The 'free lunch' is not free, you pay for it with your data, your privacy, your personal information.
+	- I felt a bit of a curmugeon at the time, but I feel that I was right, and I still feel the same way. I dont want to give my data to a company that can do what they want with it, and I dont always want to pay for a service that I can do myself, and I dont want to use a service that is not secure, or is not private when storing things that are personal and private to me.
+	- Why should I advocate this for my customers, if this is what I do myself? 
+	- So giving people the choice is important. If this is still of no concern to people I work with, then that is fine, so long as it does not compromise my own data, or my own privacy and we can work along side each other.
+	- But we should all have the option to keep our data prvate, secure and to own it ourselves, and not give it away to a company that can do what they want with it.
+	
