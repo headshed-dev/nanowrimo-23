@@ -15,5 +15,5 @@
 	- I had to take a look and watched a youtube video, as you do
 		- this one
 			- {{video https://www.youtube.com/watch?v=9kyqC8XNQH0&t=512s}}
-			- https://www.youtube.com/watch?v=9kyqC8XNQH0&t=512s
+			-
 			-
