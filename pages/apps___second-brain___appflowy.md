@@ -55,5 +55,6 @@
 	- Windows desktop and Mac desktop are also targets for Dart.
 	- Flutter, the overiding framework written in Dart is the glue that makes all this possible. Its sort of the framework is become the language. At least that is the way many see this as you would find 'flutter' being google'd perhaps more than Dart
 - {{renderer :wordcount_}}
-	-
+	- another thought I had about the state of users / programmers / consumers / producers
+		- other day I had a conversation with a person my own age, pretty much same physical origins
 	-
