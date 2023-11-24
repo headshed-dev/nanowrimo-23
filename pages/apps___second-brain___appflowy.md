@@ -63,3 +63,4 @@
 		- I wonder if these kind of thoughts will persist as time goes on, or if we will always have some with the tendency to avoid things they would otherwise find intolerable or uncomfortable to think about for whatever reason this may be. There's a thought.
 	-
 -
+-
