@@ -61,7 +61,7 @@
 		- so there will always be a community in which you will never be able to talk with about technology as they will default to stand by mode at the mention of technology, even though the majority of these will still use technology in the form of a tv remote to a mobile (dumb) phone or a smart phone or tablet, whilst maintaining a chosen perspective of not being at all technical or rather, not wanting to know any more than is absolutiely necessary.
 		- this is a shame as I suspect it could be born of a fear of technology, perhaps similar to people thinking that they just cannot do math, cannot read or write, for whatever reason. Perhaps negative experiences in the past have embedded these ideas
 		- I wonder if these kind of thoughts will persist as time goes on, or if we will always have some with the tendency to avoid things they would otherwise find intolerable or uncomfortable to think about for whatever reason this may be. There's a thought.
-		- that said, there is one view point that I have little regard for, that of business leaders that would say to me or similar that 'I
+		- that said, there is one view point that I have little regard for, that of business leaders that would say to me or similar "I'm not technical" in a way that could be held as disparaging or disaproving of technology, when the nature of the business is itslef technolgoy based. This kind of introverted if not
 	-
 -
 -
