@@ -58,5 +58,5 @@
 	- another thought I had about the state of users / programmers / consumers / producers
 		- other day I had a conversation with a person my own age, pretty much same physical origins
 		- they said to me that they 'really are not good on this technology thing' and I knew not to say anything more about what we do in our company - as he had asked for, so switched to things I knew he would have seen, as have I, regardless of interests and Star Trek, from the 60s. Most people have to at least know what that is, without at least trying very hard not to. I said that AI is moving so fast, its like faster than warp 10 in star trek. That's how fast its moving
-		- so there will always be a community in which you will never be able to
+		- so there will always be a community in which you will never be able to talk with about technology as they will default to stand by mode at the mention of technology, even though the majority of these will still use technology in the form of a tv remote to a mobile (dumb)
 	-
