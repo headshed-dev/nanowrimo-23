@@ -62,7 +62,8 @@
 		- this is a shame as I suspect it could be born of a fear of technology, perhaps similar to people thinking that they just cannot do math, cannot read or write, for whatever reason. Perhaps negative experiences in the past have embedded these ideas
 		- I wonder if these kind of thoughts will persist as time goes on, or if we will always have some with the tendency to avoid things they would otherwise find intolerable or uncomfortable to think about for whatever reason this may be. There's a thought.
 		- that said, there is one view point that I have little regard for, that of business leaders that would say to me or similar "I'm not technical" in a way that could be held as disparaging or disapproving of technology, when the nature of the business is itself technology based. This kind of introverted if not opposite thinking is not something I think that should be encouraged. If you work in a field that uses technology as a primary driver, then you really should take on the responsibility of learning about at least the key points, so that making decisions to buy / not buy something may well impact the profit / loss / failure / success of the business.
--
+- {{renderer :wordcount_}}
+	- here
 	-
 -
 -
