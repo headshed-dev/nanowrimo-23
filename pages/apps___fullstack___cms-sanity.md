@@ -33,6 +33,9 @@
 			- ```bash
 			  sanity dataset import my-data-dump.ndjson production
 			  ```
+	- image export in the backup command does not happen, so this is entirely misleading
+	- there seems no clear path to export (both) images and documents to then restore (both) post to site loss or damage
+	- this is wholly unnaceptible
 	- can you get data out, regardless of platform, just show me the code
 		- ```javascript
 		  // Import the Sanity client library
