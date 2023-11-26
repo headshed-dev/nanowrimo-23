@@ -38,6 +38,8 @@
 	- this is wholly unnaceptible
 	- https://www.sanity.io/help/import-asset-file-does-not-exist
 	- this is useless, where a backup has an image embedded within it and a datastore is deleted or the backup is from another datastore, the image is present in the backup file but because the path does not yet exist in the datastor target, it will not restore from the dump, rendering the backups useless
+	- I could have a way out of this mess
+		- the data is stored in the backup file as
 	- can you get data out, regardless of platform, just show me the code
 		- ```javascript
 		  // Import the Sanity client library
