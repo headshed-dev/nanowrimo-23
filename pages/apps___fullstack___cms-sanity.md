@@ -19,6 +19,8 @@
 	- The Sanity free tier claims to be [free forever](https://www.sanity.io/pricing) so if your botherd that you may be tied in to something that is initially free to then be charged ever increasing amounts, you can be assured that Sanity will not do this, at least for the free tier and possibly for as long as they are saying this. There is a commitment to keeping the free tier free and this is a good thing, at least for now. We've all seen free tiers made not free, cough Heroku, being one example but we have to be realistic and understand that nothing is free and that we have to pay for things in some way or another. Sanity is a business and they have to make money to survive and to grow. It is logical and reasonable to expect that if using a service like that when money is being made by its users, that they should be responsible to pay for the services they consume in order for that service to be sustainable.
 - {{renderer :wordcount_}}
 	- can you back it up ? https://snapshooter.com/application/sanity
+		- this is a commercial solution, so is worth a look as it must have some kind of SLA
+		-
 	- can you get data out, regardless of platform, just show me the code
 		- ```javascript
 		  // Import the Sanity client library
