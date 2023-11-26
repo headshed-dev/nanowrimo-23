@@ -21,6 +21,81 @@
 	- can you back it up ? https://snapshooter.com/application/sanity
 	- can you get data out, regardless of platform, just show me the code
 		- ```javascript
+		  // Import the Sanity client library
+		  import { createClient } from '@sanity/client'
+		  import imageUrlBuilder from '@sanity/image-url'
+		  import {toHTML} from '@portabletext/to-html'
+		  import dotenv from 'dotenv'
+		  dotenv.config()
+		  
+		  export const client = createClient({
+		      projectId: process.env.PROJECT_ID,
+		      dataset: process.env.DATASET,
+		      useCdn: true, // set to `false` to bypass the edge cache
+		      apiVersion: '2023-05-03', // use current date (YYYY-MM-DD) to target the latest API version
+		      // token: process.env.SANITY_SECRET_TOKEN // Only if you want to update content with the client
+		  })
+		  
+		  
+		  const builder = imageUrlBuilder(client)
+		  
+		  function urlFor(source) {
+		      return builder.image(source)
+		  }
+		  
+		  
+		  // uses GROQ to query content: https://www.sanity.io/docs/groq
+		  export async function getPosts() {
+		      const posts = await client.fetch('*[_type == "post"]')
+		      return posts
+		  }
+		  
+		  // create an array to store posts
+		  const postArray = []
+		  
+		  // get all posts
+		  export async function getAllPosts() {
+		      const posts = await client.fetch('*[_type == "post"]')
+		      // loop through posts and add to array
+		      posts.forEach(post => {
+		          postArray.push(post)
+		      })
+		      return postArray
+		  }
+		  
+		  // get all post slugs
+		  export async function getAllPostSlugs() {
+		      const posts = await client.fetch('*[_type == "post"]{slug}')
+		      return posts
+		  }
+		  
+		  // get post by slug
+		  export async function getPostBySlug(slug) {
+		      const post = await client.fetch(`*[_type == "post" && slug.current == "${slug}"]`)
+		      return post
+		  }
+		  
+		  
+		  
+		  getAllPosts().then(posts => {
+		      posts.forEach(post => {
+		          console.log(post.title)
+		          console.log(post.slug.current)
+		          console.log('post body html : \n',    toHTML(post.body, {
+		              components: {
+		                /* optional object of custom components to use */
+		              },
+		            }))
+		  
+		  
+		          console.log(post._updatedAt)
+		          console.log(post._createdAt)
+		          console.log(urlFor(post.mainImage.asset._ref).width(1200).url())
+		      })
+		  }).catch(error => {
+		      console.log(error)
+		  })
+		  
 		  
 		  
 		  ```
