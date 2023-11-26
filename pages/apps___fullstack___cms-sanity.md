@@ -22,13 +22,13 @@
 		- this is a commercial solution, so is worth a look as it must have some kind of SLA
 		- there is a free option for 1 dataset, 1 day, 1 automation, so for a non profit / charity this also is an option
 	- what other backup options are there ?
-		- ```bash
+		- at https://www.sanity.io/docs/export :
+		  ```bash
 		  curl https://<projectId>.api.sanity.io/v2021-06-07/data/export/<dataset>/ > backup.ndjson
 		  
 		  curl https://<projectId>.api.sanity.io/v2021-06-07/data/export/<dataset>?types=author,book > backup.ndjson
-		  
-		  
 		  ```
+		  so a command line, single command of some kind can be automated
 	- can you get data out, regardless of platform, just show me the code
 		- ```javascript
 		  // Import the Sanity client library
