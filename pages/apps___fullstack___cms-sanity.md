@@ -40,7 +40,8 @@
 	- this is useless, where a backup has an image embedded within it and a datastore is deleted or the backup is from another datastore, the image is present in the backup file but because the path does not yet exist in the datastor target, it will not restore from the dump, rendering the backups useless
 	- I could have a way out of this mess
 		- the data is stored in the backup file as base64, so could be editted out, the base64 string de-encoded to be a stand alone file, the base64 string be replaced with something like
-		  `image@file:///local/path/to/rogue-one-poster.jpg` from `"data:image/jpeg;base64,/9j/2wB...` and maybe, just mayb
+		  `image@file:///local/path/to/rogue-one-poster.jpg` from `"data:image/jpeg;base64,/9j/2wB...` and maybe, just maybe, this could work, but only testing will prove this
+		- its still very, very poor
 	- can you get data out, regardless of platform, just show me the code
 		- ```javascript
 		  // Import the Sanity client library
