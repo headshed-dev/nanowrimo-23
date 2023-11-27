@@ -120,96 +120,56 @@
 		  })
 		  ```
 	- backup and DR conclusions so far
-		- it seems that so long as you dont _ever_ delete a dataset, you can restore from a backup file in sanity. 
+		- it seems that so long as you dont _ever_ delete a dataset, you can restore from a backup file in sanity.
 		- howeer, as soon as the dataset that was originally backed up is deleted, the backup file is useless
 		- the backup file is in ndjson format, so can be edited, so there is a possibility that in line base64 data could be extracted, the file re-written to use local files paths and then re-imported, having created the local files and paths using the base64 data
-		- by manually editting a backup file, I found that this was only partially successful. Each file I replaced that was in line resulted in an image that appeared inconsistent with that of the image that was visible when the database was intact and the post was being viewed normally. As each file was replaced with that of a png, a further one needed to be replaced. that occured further on in the file and there were additional files that were webp format, which I did not get as far as trying to replace. So this would need to be revisited and a more robust solution built around the idea of parsing the ndjson file and extracting the base64 data, creating the files and paths and then re-importing the data. This would require work and would need to be tested thoroughly. It would also need to be automated, so that it could be run as a cron job or similar. 
-		- so long as the web site that is subsequeently created from a sanity cms, as with any other cms, back-end system, database or whatever is kept separate from the pipline that creates it from, in this case, the sanity database, then the web site itself could be backed up, archived and version controlled such that in the case of a disaster recovery, this  well known and structured website comprising of image assets, json data and markdown files could be used as a single source of truth to recreate the web site. 
+		- by manually editting a backup file, I found that this was only partially successful. Each file I replaced that was in line resulted in an image that appeared inconsistent with that of the image that was visible when the database was intact and the post was being viewed normally. As each file was replaced with that of a png, a further one needed to be replaced. that occured further on in the file and there were additional files that were webp format, which I did not get as far as trying to replace. So this would need to be revisited and a more robust solution built around the idea of parsing the ndjson file and extracting the base64 data, creating the files and paths and then re-importing the data. This would require work and would need to be tested thoroughly. It would also need to be automated, so that it could be run as a cron job or similar.
+		- so long as the web site that is subsequeently created from a sanity cms, as with any other cms, back-end system, database or whatever is kept separate from the pipline that creates it from, in this case, the sanity database, then the web site itself could be backed up, archived and version controlled such that in the case of a disaster recovery, this  well known and structured website comprising of image assets, json data and markdown files could be used as a single source of truth to recreate the web site.
 		- Other cms solutions could suffer from the same or similar issues. Whilst sanity is partly open source, in that its front end, management software and text editor, also the standard that it uses by which to store data, are open source, the back-end 'data lake' and its own inner workings are not. So the issue with images being stored in the backup file but clearly the data lake holds these separate to that of the text data, this is just how it works and that fact that the export / import process does not out of the box to cater for this is something that needs to be decided on by the user as to whether they are happy with this or not.
 		- for the moment, these disadvantages I believe are outweighed by the benefits of the free tier enabling 0 start up costs for SMEs and startups, including not for profit and charitable organisations
 		- The work around of archiving a complete, working and completely formed static site, using any static site generator, be it Astro, Gatsby, Next, Hugo, Eleventy or whatever is a possible resution to an annoying problem
 		- A re-engineering of the export / import process to separate image assets from textual data is a possibility and one that I could explore and ask about in the development community. Slack seems to be the way that Sanity developers communicate with each other, so I could ask about this in their #help channels before tring to fix the problem myself and when there could be a known solution that I am not aware of as to yet.
 		- The wasy that the data lake stores data, in the form of images seems to be that unless a dataset is to be completely removed, there would seem to be a copy held, at least for a time of the image data. This I can conclude due to backing up and restoring from different backup sets of a collection of posts with images attached that had different images added to them, removed, new ones added and for the backup files to be used to restore the posts throughout this life cycle.  Each backup file has image data embeeded as base64 data within it, each one is different, however each can be restored from different points in time. When the dataset is deleted, the backup file is useless, as the images paths are said to be no longer available, suggesting that there is expeced to be a document based entry of these prior images somewhere in the content lake. Knowing what I know about document based databases such as S3 clones and compaitibles, this would suggest that documents are being held in some kind version controlled bucket or similar. But like I say, this is mearly conjecture at this point.
-		- I needed to understand better what this ndjson format is and if I can break it apart and reform it and it appears that this is entirely possible
-			- I'm working with a backup file from sanity cms and it says it is in ndjson 
+		- I needed to understand better what this [ndjson](https://ndjson.org/) format is and if I can break it apart and reform it and it appears that this is entirely possible
+			- I'm working with a backup file from sanity cms and it says it is in ndjson
 			- what is ndjson and where does it come from if not json ?
 			- "NDJSON" stands for "Newline Delimited JSON." It is a file format that stores JSON (JavaScript Object Notation) objects, but each JSON object is separated by a newline character. In other words, instead of having a single JSON document, you have multiple JSON objects, each on its own line.
-
 			- This format is particularly useful for streaming data or when dealing with large datasets. Each line in an NDJSON file is a valid JSON object, and the newline character indicates the end of one object and the start of the next.
-
 			- Here's an example of what an NDJSON file might look like:
-			```json
-			{"name": "John", "age": 30}
-			{"name": "Jane", "age": 25}
-			{"name": "Bob", "age": 40}
-			```
+			  ```json
+			  {"name": "John", "age": 30}
+			  {"name": "Jane", "age": 25}
+			  {"name": "Bob", "age": 40}
+			  ```
 			- In contrast to traditional JSON, where you would have an array encapsulating these objects like:
-			```json
-			[
-			{"name": "John", "age": 30},
-			{"name": "Jane", "age": 25},
-			{"name": "Bob", "age": 40}
-			]
-			```
+			  ```json
+			  [
+			  {"name": "John", "age": 30},
+			  {"name": "Jane", "age": 25},
+			  {"name": "Bob", "age": 40}
+			  ]
+			  ```
 			- NDJSON is commonly used in scenarios where you want to process or read data line by line, making it easier to handle large datasets without needing to load the entire file into memory at once.
-
 			- In the context of a Sanity CMS backup file, the use of NDJSON might be related to how the CMS exports or backs up data, possibly for easier handling and processing.
-
 			- so would it be fair tosay that each line in an ndjson could be treated as a separate file ?
-
-
 			- Yes, that's a reasonable way to conceptualize it. In an NDJSON file, each line represents a standalone JSON object. You can think of each line as a separate "record" or "entry," and you can process or work with these lines independently.
-
 			- This format is particularly useful when dealing with large datasets or when you want to stream data. You can read and process each line individually without needing to load the entire file into memory, making it more memory-efficient, especially for scenarios where you might be dealing with a large number of records.
-
 			- So, treating each line in an NDJSON file as a separate unit or "file" in your processing is a common and practical approach.
-
 			- by that then, is it fair to say an ndjson could be converted into separate lines of json, processed, some of the json modified, and then the same ndjson be recontructed by concatenating each line of json back together as one file using something like 'cat' to do so ?
-
 			- Absolutely, that's a correct understanding. You can treat each line in an NDJSON file as an individual JSON object, process or modify them independently, and then reconstruct the NDJSON file by concatenating the modified lines back together. Tools like cat in Unix-based systems can indeed be used for this purpose.
-
 			- Here's a high-level example in a Unix/Linux environment using command-line tools:
-
 			- Splitting NDJSON into individual JSON files:
-			```bash
-			# Assuming your NDJSON file is named data.ndjson
-			mkdir json_objects
-			awk 'NF { print $0 > "json_objects/"NR".json" }' data.ndjson
-			```
+			  ```bash
+			  # Assuming your NDJSON file is named data.ndjson
+			  mkdir json_objects
+			  awk 'NF { print $0 > "json_objects/"NR".json" }' data.ndjson
+			  ```
 			- This will create separate JSON files in the json_objects directory, each containing one JSON object.
-
 			- Processing or modifying individual JSON files:
 			- You can now go into the json_objects directory, open each JSON file, make your modifications, and save the changes.
-
 			- Reconstructing NDJSON from modified JSON files:
-			```bash
-			cat json_objects/*.json > modified_data.ndjson
-			```
+			  ```bash
+			  cat json_objects/*.json > modified_data.ndjson
+			  ```
 			- This command concatenates all the individual JSON files back into a single NDJSON file.
-
 			- Keep in mind that this is a simple example, and the actual process might vary based on your specific use case and the tools available in your environment. The key idea is to treat each line in the NDJSON file as a separate JSON object for independent processing and then concatenate them back together when you're done with the modifications.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
