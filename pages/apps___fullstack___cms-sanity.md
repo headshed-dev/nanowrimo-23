@@ -130,3 +130,86 @@
 		- The work around of archiving a complete, working and completely formed static site, using any static site generator, be it Astro, Gatsby, Next, Hugo, Eleventy or whatever is a possible resution to an annoying problem
 		- A re-engineering of the export / import process to separate image assets from textual data is a possibility and one that I could explore and ask about in the development community. Slack seems to be the way that Sanity developers communicate with each other, so I could ask about this in their #help channels before tring to fix the problem myself and when there could be a known solution that I am not aware of as to yet.
 		- The wasy that the data lake stores data, in the form of images seems to be that unless a dataset is to be completely removed, there would seem to be a copy held, at least for a time of the image data. This I can conclude due to backing up and restoring from different backup sets of a collection of posts with images attached that had different images added to them, removed, new ones added and for the backup files to be used to restore the posts throughout this life cycle.  Each backup file has image data embeeded as base64 data within it, each one is different, however each can be restored from different points in time. When the dataset is deleted, the backup file is useless, as the images paths are said to be no longer available, suggesting that there is expeced to be a document based entry of these prior images somewhere in the content lake. Knowing what I know about document based databases such as S3 clones and compaitibles, this would suggest that documents are being held in some kind version controlled bucket or similar. But like I say, this is mearly conjecture at this point.
+		- I needed to understand better what this ndjson format is and if I can break it apart and reform it and it appears that this is entirely possible
+			- I'm working with a backup file from sanity cms and it says it is in ndjson 
+			- what is ndjson and where does it come from if not json ?
+			- "NDJSON" stands for "Newline Delimited JSON." It is a file format that stores JSON (JavaScript Object Notation) objects, but each JSON object is separated by a newline character. In other words, instead of having a single JSON document, you have multiple JSON objects, each on its own line.
+
+			- This format is particularly useful for streaming data or when dealing with large datasets. Each line in an NDJSON file is a valid JSON object, and the newline character indicates the end of one object and the start of the next.
+
+			- Here's an example of what an NDJSON file might look like:
+			```json
+			{"name": "John", "age": 30}
+			{"name": "Jane", "age": 25}
+			{"name": "Bob", "age": 40}
+			```
+			- In contrast to traditional JSON, where you would have an array encapsulating these objects like:
+			```json
+			[
+			{"name": "John", "age": 30},
+			{"name": "Jane", "age": 25},
+			{"name": "Bob", "age": 40}
+			]
+			```
+			- NDJSON is commonly used in scenarios where you want to process or read data line by line, making it easier to handle large datasets without needing to load the entire file into memory at once.
+
+			- In the context of a Sanity CMS backup file, the use of NDJSON might be related to how the CMS exports or backs up data, possibly for easier handling and processing.
+
+			- so would it be fair tosay that each line in an ndjson could be treated as a separate file ?
+
+
+			- Yes, that's a reasonable way to conceptualize it. In an NDJSON file, each line represents a standalone JSON object. You can think of each line as a separate "record" or "entry," and you can process or work with these lines independently.
+
+			- This format is particularly useful when dealing with large datasets or when you want to stream data. You can read and process each line individually without needing to load the entire file into memory, making it more memory-efficient, especially for scenarios where you might be dealing with a large number of records.
+
+			- So, treating each line in an NDJSON file as a separate unit or "file" in your processing is a common and practical approach.
+
+			- by that then, is it fair to say an ndjson could be converted into separate lines of json, processed, some of the json modified, and then the same ndjson be recontructed by concatenating each line of json back together as one file using something like 'cat' to do so ?
+
+			- Absolutely, that's a correct understanding. You can treat each line in an NDJSON file as an individual JSON object, process or modify them independently, and then reconstruct the NDJSON file by concatenating the modified lines back together. Tools like cat in Unix-based systems can indeed be used for this purpose.
+
+			- Here's a high-level example in a Unix/Linux environment using command-line tools:
+
+			- Splitting NDJSON into individual JSON files:
+			```bash
+			# Assuming your NDJSON file is named data.ndjson
+			mkdir json_objects
+			awk 'NF { print $0 > "json_objects/"NR".json" }' data.ndjson
+			```
+			- This will create separate JSON files in the json_objects directory, each containing one JSON object.
+
+			- Processing or modifying individual JSON files:
+			- You can now go into the json_objects directory, open each JSON file, make your modifications, and save the changes.
+
+			- Reconstructing NDJSON from modified JSON files:
+			```bash
+			cat json_objects/*.json > modified_data.ndjson
+			```
+			- This command concatenates all the individual JSON files back into a single NDJSON file.
+
+			- Keep in mind that this is a simple example, and the actual process might vary based on your specific use case and the tools available in your environment. The key idea is to treat each line in the NDJSON file as a separate JSON object for independent processing and then concatenate them back together when you're done with the modifications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
