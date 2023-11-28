@@ -30,4 +30,5 @@
 		- > Over the course of her career, Cathie has held a variety of roles at different organisations, and she is currently Chief Scientist and Deputy Director at Health Data Research UK. She believes that there is no room for prima donnas in science, and wants her field to be open and collaborative, to have the most impact on patients’ lives.
 	- At the opening statements in here interview, I was interested to here Professor Sudlow say that she believed that we need to work more collaboratively and that there is no room for 'prima donnas' in science. She went  on to say that some have become more pre-ocupied with the placing of their names in papers and the acolades given for individual work rather than the work itself being the measurable output. That output is innevitably the product of teams of people working together and this is what she seeks to promote and encourage.
 	- If we put everything behind a paywall or under the terms of copywrite, we would not be able to have the opportunites that we have now in the field of AI and LLMs.
-	-
+	- What we are starting to see now are emergent toolsets that enable not just non programmers but now non data scientists and varying levels of programmers to access AI.
+	- We are beginning to see a demo
